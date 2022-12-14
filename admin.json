@@ -1,0 +1,44 @@
+[
+    {
+        "img" : "https://i.ibb.co/ssZb2yY/xn610pga-500x500.jpg",
+        "title": "Signature 1-Seater Sofa",
+        "price": "₹450",
+        "rent": "Rent ₹150/month",
+        "features": "Capacity/Size : 300 Sq.Ft  Brand: Signature Premium Quality Furnitures"
+    },
+    {
+        "img": "https://i.ibb.co/BcX67Mn/tyjcmnwb-500x500.jpg",
+        "title": "Philips TV Unit",
+        "price": "₹410",
+        "rent": "Rent ₹250/month",
+        "features": "Capacity/Size : 32 inch  Brand: Philips 32 inch LED television"
+    },
+    {
+        "img": "https://i.ibb.co/HTQsy9J/sc4mwkso-500x500.jpg",
+        "title": "Chesire Fbric Sofa Cum Bed (Green)",
+        "price": "₹849",
+        "rent": "Rent ₹549/month",
+        "features": "Capacity/Size : 300 Sq.Ft  Kamal Premium sofa cum bed"
+    },
+    {
+        "img": "https://p.rmjo.in/productSquare/khai5gzi-250x250.jpg",
+        "title": "Marvel TV Unit",
+        "price": "₹139",
+        "rent": "Rent ₹79/month",
+        "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+    },
+    {
+        "img": "https://p.rmjo.in/productSquare/sc4mwkso-250x250.jpg",
+        "title": "Brroklyn L-Shaped Fabric Sofa(Ble)",
+        "price": "₹1189",
+        "rent": "Rent ₹889/month",
+        "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+    },
+    {
+        "img": "https://p.rmjo.in/productSquare/fgm22vkb-250x250.jpg",
+        "title": "Lack TV Beanch",
+        "price": "79",
+        "rent": "Rent ₹79/month",
+        "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+    }
+]

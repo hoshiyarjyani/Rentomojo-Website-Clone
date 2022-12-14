@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent-Market ADMIN SIDE</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+  <link rel="stylesheet" href="/admin.css">
+</head>
+<body>
+    <div id="navbar">
+        <div><img src="https://www.rentomojo.com/public/images/Home/new/ham__icon.svg" id="dropdown_menu_open"
+                alt=""><img src="https://www.rentomojo.com/public/images/Home/new/logo.svg" alt=""></div>
+        <div onclick="goToHome()"><img src="https://www.rentomojo.com/public/images/logo.svg" alt=""></div>
+        <div>
+            <div id="location">
+                <p id="change_location"><b>WELCOME TO THE ADMIN PAGE</b></p>
+            </div>
+        </div>
+    </div>
+    <div id="login_details">
+        <div id="login_details_div"><h1>Welcome Admin</h1></div>
+        <div>
+            <label for=""><b>Enter Your Unique ID to Login</b></label>
+            <br>
+            <input type="text" id="login_phone_data" placeholder="Enter Phone Number*">
+            <br>
+            <input type="text" id="login_name_data" placeholder="Enter Name*">
+            <br>
+            <input type="text" name="" id="login_otp_data" placeholder="Enter OTP">
+            <br>
+            <button id="login_data_submit_button" onclick="show_login_popup()">Continue</button>
+        </div>
+    </div>
+</body>
+</html>
+<script src="/admin.js"></script>
