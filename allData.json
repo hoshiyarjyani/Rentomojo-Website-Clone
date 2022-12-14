@@ -1,557 +1,1044 @@
 [
    {
-      "livingroom":[
+      "livingroom": [
          {
-            "img":"https://i.ibb.co/ssZb2yY/xn610pga-500x500.jpg",
-            "title":"Felix 1-Seater Sofa",
-            "price":"379",
-            "rent":"Rent ₹379/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/ssZb2yY/xn610pga-500x500.jpg",
+            "title": "Felix 1-Seater Sofa",
+            "price": "379",
+            "rent": "Rent ₹379/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/kxjvNFb/is70bee5-500x500.jpg",
-            "title":"Oliver 3-Seater Sofa (Blue)",
-            "price":"559",
-            "rent":"Rent ₹559/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/kxjvNFb/is70bee5-500x500.jpg",
+            "title": "Oliver 3-Seater Sofa (Blue)",
+            "price": "559",
+            "rent": "Rent ₹559/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/BcX67Mn/tyjcmnwb-500x500.jpg",
-            "title":"Pixar TV Unit",
-            "price":"239",
-            "rent":"Rent ₹239/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/BcX67Mn/tyjcmnwb-500x500.jpg",
+            "title": "Pixar TV Unit",
+            "price": "239",
+            "rent": "Rent ₹239/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/gzzZwfv/0qiq5edb-500x500.jpg",
-            "title":"Saddle Shoe Rack Large",
-            "price":"189",
-            "rent":"Rent ₹189/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/gzzZwfv/0qiq5edb-500x500.jpg",
+            "title": "Saddle Shoe Rack Large",
+            "price": "189",
+            "rent": "Rent ₹189/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/dQ40d5g/6jks7lk8-500x500.jpg",
-            "title":"Felix 3-Seater Sofa (Black)",
-            "price":"789",
-            "rent":"Rent ₹789/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/dQ40d5g/6jks7lk8-500x500.jpg",
+            "title": "Felix 3-Seater Sofa (Black)",
+            "price": "789",
+            "rent": "Rent ₹789/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/NsKN4h2/lfg6bk2a-500x500.jpg",
-            "title":"Rex 3-Seater Sofa",
-            "price":"659",
-            "rent":"Rent ₹659/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/NsKN4h2/lfg6bk2a-500x500.jpg",
+            "title": "Rex 3-Seater Sofa",
+            "price": "659",
+            "rent": "Rent ₹659/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/kxb6h2J/tqddqxw9-500x500.jpg",
-            "title":"Rex 1-Seater Sofa (Black)",
-            "price":"319",
-            "rent":"Rent ₹319/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/kxb6h2J/tqddqxw9-500x500.jpg",
+            "title": "Rex 1-Seater Sofa (Black)",
+            "price": "319",
+            "rent": "Rent ₹319/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/gzzZwfv/0qiq5edb-500x500.jpg",
-            "title":"Barney Leather Decliner (Brown)",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/gzzZwfv/0qiq5edb-500x500.jpg",
+            "title": "Barney Leather Decliner (Brown)",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/HTQsy9J/sc4mwkso-500x500.jpg",
-            "title":"Chesire Fbric Sofa Cum Bed (Green)",
-            "price":"1049",
-            "rent":"Rent ₹1049/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/HTQsy9J/sc4mwkso-500x500.jpg",
+            "title": "Chesire Fbric Sofa Cum Bed (Green)",
+            "price": "1049",
+            "rent": "Rent ₹1049/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/WFSk67G/5jxsekke-500x500.jpg",
-            "title":"Velma 3-Seater Sofa (Teal)",
-            "price":"489",
-            "rent":"Rent ₹489/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/WFSk67G/5jxsekke-500x500.jpg",
+            "title": "Velma 3-Seater Sofa (Teal)",
+            "price": "489",
+            "rent": "Rent ₹489/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/YhHQS2d/cl07o74j-500x500.jpg",
-            "title":"Robin Futon Red Large",
-            "price":"489",
-            "rent":"Rent ₹489/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/YhHQS2d/cl07o74j-500x500.jpg",
+            "title": "Robin Futon Red Large",
+            "price": "489",
+            "rent": "Rent ₹489/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         // !---------------------------------------------------Ravindra-----------------------------------------------------------
+         {
+            "img": "https://p.rmjo.in/productSquare/qcwh56l4-250x250.jpg",
+            "title": "Pixer TV Unit",
+            "price": "239",
+            "rent": "Rent ₹239/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/khai5gzi-250x250.jpg",
+            "title": "Marvel TV Unit",
+            "price": "139",
+            "rent": "Rent ₹139/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/3kcwba1u-250x250.jpg",
+            "title": "Mackapar beench with Storage",
+            "price": "269",
+            "rent": "Rent ₹269/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/i3t529ux-250x250.jpg",
+            "title": "Adde White Chair byIkea",
+            "price": "59",
+            "rent": "Rent ₹59/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/ewmorq0i-250x250.jpg",
+            "title": "Adde Grey Chair by Ikea",
+            "price": "59",
+            "rent": "Rent ₹59/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/r10yzhnd-250x250.jpg",
+            "title": "Poise Metal Chair",
+            "price": "119",
+            "rent": "Rent ₹119/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/smr3l0tl-250x250.jpg",
+            "title": "Rex 3-Seater Leather Sofa(Black)",
+            "price": "659",
+            "rent": "Rent ₹659/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/ezzd04ug-250x250.jpghttps://p.rmjo.in/productSquare/ezzd04ug-250x250.jpg",
+            "title": "Felix 3-Seater Fabric Sofa (Blue)",
+            "price": "789",
+            "rent": "Rent ₹789/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/qzjr7c5l-250x250.jpg",
+            "title": "Casper 3-Seater Sofa (Blue)",
+            "price": "719",
+            "rent": "Rent ₹719/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/ywwj3pr0-250x250.jpg",
+            "title": "Oliver 2-Seater Fabric Sofa (Blue)",
+            "price": "329",
+            "rent": "Rent ₹329/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/ela3vl43-250x250.jpg",
+            "title": "Moonstone 3-Seater Fabric Sofa(Grey",
+            "price": "989",
+            "rent": "Rent ₹989/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/5jxsekke-250x250.jpg",
+            "title": "Velama 3-Seater Fabric Sofa (Teal)",
+            "price": "489",
+            "rent": "Rent ₹489/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/sc4mwkso-250x250.jpg",
+            "title": "Brroklyn L-Shaped Fabric Sofa(Ble)",
+            "price": "1189",
+            "rent": "Rent ₹1189/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/xn610pga-250x250.jpg",
+            "title": "Velma 1-Seater Fabric Sofa(Teal)",
+            "price": "259",
+            "rent": "Rent ₹259/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/9lx10mln-250x250.jpg",
+            "title": "Parker Fabric Sofa Cum Bed",
+            "price": "989",
+            "rent": "Rent ₹989/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/s2djad5r-250x250.jpg",
+            "title": "Oliver 3-Seater Sofa (White)",
+            "price": "529",
+            "rent": "Rent ₹529/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/40zhzwlu-250x250.jpg",
+            "title": "Leo 3-Seater Fabric Sofa (Wine Grey)",
+            "price": "789",
+            "rent": "Rent ₹789/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/uarwr42e-250x250.jpg",
+            "title": "Regina 3-Seater Fabric Sofa (White)",
+            "price": "729",
+            "rent": "Rent ₹729/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/t2idsa0g-250x250.jpg",
+            "title": "Caramel 4-Seater Wooden Coffee Table",
+            "price": "549",
+            "rent": "Rent ₹549/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/1uhyr2cu-250x250.jpg",
+            "title": "Cuppa Centre",
+            "price": "109",
+            "rent": "Rent ₹109/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/lq1zzhua-250x250.jpg",
+            "title": "Vienna Coffee Table",
+            "price": "179",
+            "rent": "Rent ₹179/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/yqwxaa31-250x250.jpg",
+            "title": "Viena End Table",
+            "price": "129",
+            "rent": "Rent ₹129/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/bwtusbfe-250x250.jpg",
+            "title": "Perk 4-Seater Wooden Coffee Table",
+            "price": "479",
+            "rent": "Rent ₹479/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/wwsr1k5o-250x250.jpg",
+            "title": "Poise Metal Table",
+            "price": "479",
+            "rent": "Rent ₹479/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/wwsr1k5o-250x250.jpg",
+            "title": "Poise Metal Table 2",
+            "price": "279",
+            "rent": "Rent ₹279/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/ct7fgfaw-250x250.jpg",
+            "title": "Gladom Table by IKEA",
+            "price": "89",
+            "rent": "Rent ₹89/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/hs7hg508-250x250.jpg",
+            "title": "Saddle Shoe RAck Large",
+            "price": "189",
+            "rent": "Rent ₹189/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/rcc23o36-250x250.jpg",
+            "title": "Footsie Shoe Rack Small",
+            "price": "109",
+            "rent": "Rent ₹109/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/4csh317o-250x250.jpg",
+            "title": "Flip Shoe Rack",
+            "price": "209",
+            "rent": "Rent ₹209/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/epx8jjhj-250x250.jpg",
+            "title": "Bootlegger Shoe Rack",
+            "price": "179",
+            "rent": "Rent ₹179/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/8v4zoq0p-250x250.jpg",
+            "title": "Solemate Shoe Rack",
+            "price": "309",
+            "rent": "Rent ₹309/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/fgm22vkb-250x250.jpg",
+            "title": "Lack TV Beanch",
+            "price": "79",
+            "rent": "Rent ₹79/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/d69fxfol-250x250.jpg",
+            "title": "Pinning Coat Rack",
+            "price": "129",
+            "rent": "Rent ₹129/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            // !----------------------------------RRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR------------------------------------------------------------
          }
       ]
    },
    {
-      "bedroom":[
+      "bedroom": [
          {
-            "img":"https://i.ibb.co/Qv0cryh/dqu1k65a-500x500-1.jpg",
-            "title":"Queen Foam Matress (6*5)",
-            "price":"259",
-            "rent":"Rent ₹259/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/Qv0cryh/dqu1k65a-500x500-1.jpg",
+            "title": "Queen Foam Matress (6*5)",
+            "price": "259",
+            "rent": "Rent ₹259/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/Qv0cryh/dqu1k65a-500x500-1.jpg",
-            "title":"Queen Foam Matress (6*6)",
-            "price":"299",
-            "rent":"Rent ₹299/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/Qv0cryh/dqu1k65a-500x500-1.jpg",
+            "title": "Queen Foam Matress (6*6)",
+            "price": "299",
+            "rent": "Rent ₹299/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/Qv0cryh/dqu1k65a-500x500-1.jpg",
-            "title":"Queen Foam Matress (6*3)",
-            "price":"149",
-            "rent":"Rent ₹149/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/Qv0cryh/dqu1k65a-500x500-1.jpg",
+            "title": "Queen Foam Matress (6*3)",
+            "price": "149",
+            "rent": "Rent ₹149/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/fkxdT64/ikl0fdjc-500x500-1.jpg",
-            "title":"Napster Metal Single Bed (6*3)",
-            "price":"249",
-            "rent":"Rent ₹249/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/fkxdT64/ikl0fdjc-500x500-1.jpg",
+            "title": "Napster Metal Single Bed (6*3)",
+            "price": "249",
+            "rent": "Rent ₹249/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/6FKBBj0/j0xbbocy-500x500.jpg",
-            "title":"Napster Metal Queen Bed (6*5)",
-            "price":"319",
-            "rent":"Rent ₹319/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/6FKBBj0/j0xbbocy-500x500.jpg",
+            "title": "Napster Metal Queen Bed (6*5)",
+            "price": "319",
+            "rent": "Rent ₹319/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/HdKXHTj/7i306dfx-500x500.jpg",
-            "title":"Aurora Wooden Queen Bed(6*5)",
-            "price":"539",
-            "rent":"Rent ₹539/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/HdKXHTj/7i306dfx-500x500.jpg",
+            "title": "Aurora Wooden Queen Bed(6*5)",
+            "price": "539",
+            "rent": "Rent ₹539/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/bNKGKXh/pemzyedy-500x500.jpg",
-            "title":"Single LX Ortho Pocket Spring Mattress (6.6*3)",
-            "price":"449",
-            "rent":"Rent ₹449/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/bNKGKXh/pemzyedy-500x500.jpg",
+            "title": "Single LX Ortho Pocket Spring Mattress (6.6*3)",
+            "price": "449",
+            "rent": "Rent ₹449/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/6DSX76p/u5j0j47b-500x500.jpg",
-            "title":"King Ortho Pocket Spring Mattress (6.6*6)",
-            "price":"729",
-            "rent":"Rent ₹729/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/6DSX76p/u5j0j47b-500x500.jpg",
+            "title": "King Ortho Pocket Spring Mattress (6.6*6)",
+            "price": "729",
+            "rent": "Rent ₹729/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          }
       ]
    },
    {
-      "kitchen":[
+      "kitchen": [
          {
-            "img":"https://i.ibb.co/StDZZRd/jqccn9bx-500x500.jpg",
-            "title":"Paise 4-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/StDZZRd/jqccn9bx-500x500.jpg",
+            "title": "Paise 4-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/Tg78FFK/0ahsljnf-500x500.jpg",
-            "title":"Heston 4-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/Tg78FFK/0ahsljnf-500x500.jpg",
+            "title": "Heston 4-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/XScpwYJ/jagaq6ov-500x500.jpg",
-            "title":"Tyler 6-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/XScpwYJ/jagaq6ov-500x500.jpg",
+            "title": "Tyler 6-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/j44mgb2/bhpxawks-500x500.jpg",
-            "title":"Tyler 4-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/j44mgb2/bhpxawks-500x500.jpg",
+            "title": "Tyler 4-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/7bcMYkq/jotwg0bl-500x500.jpg",
-            "title":"Alton 4-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/7bcMYkq/jotwg0bl-500x500.jpg",
+            "title": "Alton 4-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/zJmB1L3/2qxe35gr-500x500-1.jpg",
-            "title":"Heston 6-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/zJmB1L3/2qxe35gr-500x500-1.jpg",
+            "title": "Heston 6-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/Dff2Pg2/nhkwo8i6-500x500.jpg",
-            "title":"Macro 4-Seater Dining Table & Chairs",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/Dff2Pg2/nhkwo8i6-500x500.jpg",
+            "title": "Macro 4-Seater Dining Table & Chairs",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         // ------------RRRRRRRRRRRRRRRRR------------------
+         {
+            "img": "https://p.rmjo.in/productSquare/0ipckdo0-250x250.jpg",
+            "title": "Tyler 6-Seater Dining Table & CHairs",
+            "price": "869",
+            "rent": "Rent ₹869/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/dup85lff-250x250.jpg",
+            "title": "Macro 4-Seater Dining Table & Chairs",
+            "price": "779",
+            "rent": "Rent ₹779/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/3viuyvz5-250x250.jpg",
+            "title": "Gordon 5-Seater Dininng Table & Chairs",
+            "price": "789",
+            "rent": "Rent ₹789/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/epwi1543-250x250.jpg",
+            "title": "Alton 6-Seater Dining Table & CHairs",
+            "price": "1189",
+            "rent": "Rent ₹1189/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/e1c7w1zv-250x250.jpg",
+            "title": "Marco 6-Seater Dining Table & CHairs",
+            "price": "1079",
+            "rent": "Rent ₹1079/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/jqccn9bx-250x250.jpg",
+            "title": "Heston 5-Seater Dining Table & CHairs",
+            "price": "469",
+            "rent": "Rent ₹469/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/qabfne17-250x250.jpg",
+            "title": "Gordon 6-Seater Dining Table & Chairs",
+            "price": "1149",
+            "rent": "Rent ₹1149/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         // -------------------------------------
+         {
+            "img": "https://p.rmjo.in/productSquare/24oxliut-250x250.jpg",
+            "title": "IKEA Tarno Outdoor Table & Chairs",
+            "price": "249",
+            "rent": "Rent ₹249/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/jotwg0bl-250x250.jpg",
+            "title": "Alton 4-Seater Dinning Table & Chairs",
+            "price": "849",
+            "rent": "Rent ₹849/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/2qxe35gr-250x250.jpg",
+            "title": "Heston 6-Seater Dinning Table & Chairs",
+            "price": "679",
+            "rent": "Rent ₹679/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/jr2cq9mj-250x250.jpg",
+            "title": "IKEA Meltorp & Adde Dining Set 4- Seater(Grey",
+            "price": "299",
+            "rent": "Rent ₹299/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/mdvcclnl-250x250.jpg",
+            "title": "Melitorp & Adde Dining Table(White)",
+            "price": "129",
+            "rent": "Rent ₹129/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/0gf3q4cw-250x250.jpg",
+            "title": "IKEA Gladom & Adde Otdoor Table & Chairs(White)",
+            "price": "139",
+            "rent": "Rent ₹139/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/mv4bhulj-250x250.jpg",
+            "title": "Moonshine Bar Unit",
+            "price": "1149",
+            "rent": "Rent ₹1149/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         }
+         // !-------------RRRRRRRRRRRRRRRRRRR---------------------
+      ]
+   },
+   {
+      "baby": [
+         {
+            "img": "https://i.ibb.co/gDKDgS9/s0yo6ill-500x500.jpg",
+            "title": "IKEA Mammut Table and Chair Set",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/gMLvGy2/yvof1k0h-500x500.jpg",
+            "title": "Antilop Highchair with Tray",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/mv1ZFLk/jxb4nxam-500x500.jpg",
+            "title": "Baby Cat Crib With Mattress",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/0n3Vq2n/9y16aj37-500x500.jpg",
+            "title": "Solgul Baby Cat",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/RPh3Jz6/ne1morv1-500x500.jpg",
+            "title": "Mala Easel Board by IKEA",
+            "price": "799",
+            "rent": "Rent ₹799/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          }
       ]
    },
    {
-      "baby":[
+      "wfh": [
          {
-            "img":"https://i.ibb.co/gDKDgS9/s0yo6ill-500x500.jpg",
-            "title":"IKEA Mammut Table and Chair Set",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/kMvrHQD/em6h6xgy-250x250.jpg",
+            "title": "Stuart Study Table",
+            "price": "299",
+            "rent": "Rent ₹299/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/gMLvGy2/yvof1k0h-500x500.jpg",
-            "title":"Antilop Highchair with Tray",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/9YXP6yv/ggtbqrqq-250x250.jpg",
+            "title": "Morris Office Chair",
+            "price": "199",
+            "rent": "Rent ₹199/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/mv1ZFLk/jxb4nxam-500x500.jpg",
-            "title":"Baby Cat Crib With Mattress",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/t4kmb9X/9kxg1c3a-250x250.jpg",
+            "title": "Exec Workdtation",
+            "price": "129",
+            "rent": "Rent ₹129/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/0n3Vq2n/9y16aj37-500x500.jpg",
-            "title":"Solgul Baby Cat",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/FsnnQdv/pzts2dn4-250x250.jpg",
+            "title": "Rowling Bookshelf Medium",
+            "price": "109",
+            "rent": "Rent ₹109/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/RPh3Jz6/ne1morv1-500x500.jpg",
-            "title":"Mala Easel Board by IKEA",
-            "price":"799",
-            "rent":"Rent ₹799/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/8jnYVLR/1eoam6o5-250x250-1.jpg",
+            "title": "Paise Study Table",
+            "price": "179",
+            "rent": "Rent ₹179/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          }
       ]
    },
    {
-      "wfh":[
+      "refrigerator": [
          {
-            "img":"https://i.ibb.co/kMvrHQD/em6h6xgy-250x250.jpg",
-            "title":"Stuart Study Table",
-            "price":"299",
-            "rent":"Rent ₹299/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/n6MwVHM/juqzr42r-250x250.jpg",
+            "title": "Single Door Fridge (190 Litre)",
+            "price": "779",
+            "rent": "Rent ₹779/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/9YXP6yv/ggtbqrqq-250x250.jpg",
-            "title":"Morris Office Chair",
-            "price":"199",
-            "rent":"Rent ₹199/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/Gct5STL/03rx0vpt-250x250.jpg",
+            "title": "Mini Fridge",
+            "price": "479",
+            "rent": "Rent ₹479/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/t4kmb9X/9kxg1c3a-250x250.jpg",
-            "title":"Exec Workdtation",
-            "price":"129",
-            "rent":"Rent ₹129/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/kqB1xpy/m62sgwfs-250x250.jpg",
+            "title": "Single Door Fridge",
+            "price": "679",
+            "rent": "Rent ₹679/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/FsnnQdv/pzts2dn4-250x250.jpg",
-            "title":"Rowling Bookshelf Medium",
-            "price":"109",
-            "rent":"Rent ₹109/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/cN8rcPJ/9q7xaemi-250x250.jpg",
+            "title": "Double Door Fridge",
+            "price": "1179",
+            "rent": "Rent ₹1179/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/8jnYVLR/1eoam6o5-250x250-1.jpg",
-            "title":"Paise Study Table",
-            "price":"179",
-            "rent":"Rent ₹179/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/P4MxMnv/ti9hy351-250x250.jpg",
+            "title": "Single Door Fridge (210 Litre)",
+            "price": "879",
+            "rent": "Rent ₹879/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         // ----------------RRRRRRRRRRRRRRR
+         {
+            "img": "https://p.rmjo.in/productSquare/q9dex9vc-500x500.jpg",
+            "title": "Deep Frzzer (100L)",
+            "price": "719",
+            "rent": "Rent ₹719/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/i0qsgyhl-500x500.jpg",
+            "title": "Single Door Fridge (190 Litre)",
+            "price": "1189",
+            "rent": "Rent ₹1189/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         }
+         // --------RRRRRRRR
+      ]
+   },
+   {
+      "tv": [
+         {
+            "img": "https://i.ibb.co/ZW16tpd/hc6uinv1-250x250.jpg",
+            "title": "Smart LED TV -32",
+            "price": "879",
+            "rent": "Rent ₹879/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/5GJ9QvG/s782cupb-250x250.jpg",
+            "title": "LED TV -32",
+            "price": "979",
+            "rent": "Rent ₹979/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/3vzn1qL/qzslv30s-250x250.jpg",
+            "title": "Smart LED TV -43",
+            "price": "1279",
+            "rent": "Rent ₹1279/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/9YzHGBP/011yi0xb-250x250.jpg",
+            "title": "LED TV -24",
+            "price": "579",
+            "rent": "Rent ₹579/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/7tP5Z8F/ujm70apk-250x250.jpg",
+            "title": "Smart LED TV -49",
+            "price": "1379",
+            "rent": "Rent ₹1379/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         // !---------RRRRRRRRRRRRRRRRRRRRRRRRRRR
+         {
+            "img": "https://p.rmjo.in/productSquare/5ao88urq-500x500.jpg",
+            "title": "Smart LED TV -55",
+            "price": "2349",
+            "rent": "Rent ₹2349/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://p.rmjo.in/productSquare/5mrk6tgk-500x500.jpg",
+            "title": "LED TV -24",
+            "price": "569",
+            "rent": "Rent ₹569/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         }
+         // !-----------RRRRRRRRRRRRRRRRRRRRRRRRRR
+      ]
+   },
+   {
+      "airpurifier": [
+         {
+            "img": "https://i.ibb.co/0CDnmy5/dgvhqn76-250x250.jpg",
+            "title": "Livpure - Smart Water Purifier",
+            "price": "479",
+            "rent": "Rent ₹479/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/k0X8C9q/glazai2e-250x250.jpg",
+            "title": "Air Purifier",
+            "price": "559",
+            "rent": "Rent ₹559/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/NVnGwKq/rypid344-250x250.jpg",
+            "title": "Kent Pride Plus Water Purifier",
+            "price": "779",
+            "rent": "Rent ₹779/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         {
+            "img": "https://i.ibb.co/jLk2vyM/twnq03t0-250x250.jpg",
+            "title": "Kent Max Water Purifier",
+            "price": "489",
+            "rent": "Rent ₹489/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+         },
+         // !-------------------------------
+         {
+            "img": "https://p.rmjo.in/productSquare/rypid344-500x500.jpg",
+            "title": "Kent Max Water Purifier",
+            "price": "409",
+            "rent": "Rent ₹409/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          }
       ]
    },
    {
-      "refrigerator":[
+      "WashingMachine": [
          {
-            "img":"https://i.ibb.co/n6MwVHM/juqzr42r-250x250.jpg",
-            "title":"Single Door Fridge (190 Litre)",
-            "price":"779",
-            "rent":"Rent ₹779/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/KV4511n/dwlfh1xi-250x250.jpg",
+            "title": "Semi Automatic Washing Machine",
+            "price": "779",
+            "rent": "Rent ₹779/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/Gct5STL/03rx0vpt-250x250.jpg",
-            "title":"Mini Fridge",
-            "price":"479",
-            "rent":"Rent ₹479/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/kgHqX4F/xf04vdtv-250x250.jpg",
+            "title": "Front Load Washing Machine",
+            "price": "479",
+            "rent": "Rent ₹479/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/kqB1xpy/m62sgwfs-250x250.jpg",
-            "title":"Single Door Fridge",
-            "price":"679",
-            "rent":"Rent ₹679/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/m6tkxfV/ex9dpggj-250x250.jpg",
+            "title": "Cloth Dryer",
+            "price": "979",
+            "rent": "Rent ₹979/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/cN8rcPJ/9q7xaemi-250x250.jpg",
-            "title":"Double Door Fridge",
-            "price":"1179",
-            "rent":"Rent ₹1179/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/P4MxMnv/ti9hy351-250x250.jpg",
-            "title":"Single Door Fridge (210 Litre)",
-            "price":"879",
-            "rent":"Rent ₹879/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/G301Stk/g8cndm7d-250x250-1.jpg",
+            "title": "Top Load Washing Machine",
+            "price": "1129",
+            "rent": "Rent ₹1129/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          }
       ]
    },
    {
-      "tv":[
+      "ac": [
          {
-            "img":"https://i.ibb.co/ZW16tpd/hc6uinv1-250x250.jpg",
-            "title":"Smart LED TV -32",
-            "price":"879",
-            "rent":"Rent ₹879/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/KsSLLst/tj583ult-250x250.jpg",
+            "title": "Air Condition 1 Ton",
+            "price": "1779",
+            "rent": "Rent ₹1779/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/5GJ9QvG/s782cupb-250x250.jpg",
-            "title":"LED TV -32",
-            "price":"979",
-            "rent":"Rent ₹979/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/RP6wYTK/v1c75c2j-250x250.jpg",
+            "title": "Air Condition 1 Ton",
+            "price": "1879",
+            "rent": "Rent ₹1879/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
          {
-            "img":"https://i.ibb.co/3vzn1qL/qzslv30s-250x250.jpg",
-            "title":"Smart LED TV -43",
-            "price":"1279",
-            "rent":"Rent ₹1279/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://i.ibb.co/MDLvYHK/05gpq2h8-250x250.jpg",
+            "title": "Air Condition 1.5 Ton",
+            "price": "2279",
+            "rent": "Rent ₹2279/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          },
+         // ----------------------
          {
-            "img":"https://i.ibb.co/9YzHGBP/011yi0xb-250x250.jpg",
-            "title":"LED TV -24",
-            "price":"579",
-            "rent":"Rent ₹579/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/7tP5Z8F/ujm70apk-250x250.jpg",
-            "title":"Smart LED TV -49",
-            "price":"1379",
-            "rent":"Rent ₹1379/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
+            "img": "https://p.rmjo.in/productSquare/v1c75c2j-500x500.jpg",
+            "title": "Air Condition 1.5 Ton(2 Star)",
+            "price": "3699",
+            "rent": "Rent ₹3699/month",
+            "desc": "Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
+            "size": "16inL x 14inB x 30inH",
+            "features": "Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
          }
-      ]
-   },
-   {
-      "airpurifier":[
-         {
-            "img":"https://i.ibb.co/0CDnmy5/dgvhqn76-250x250.jpg",
-            "title":"Livpure - Smart Water Purifier",
-            "price":"479",
-            "rent":"Rent ₹479/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/k0X8C9q/glazai2e-250x250.jpg",
-            "title":"Air Purifier",
-            "price":"559",
-            "rent":"Rent ₹559/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/NVnGwKq/rypid344-250x250.jpg",
-            "title":"Kent Pride Plus Water Purifier",
-            "price":"779",
-            "rent":"Rent ₹779/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/jLk2vyM/twnq03t0-250x250.jpg",
-            "title":"Kent Max Water Purifier",
-            "price":"489",
-            "rent":"Rent ₹489/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         }
-      ]
-   },
-   {
-      "WashingMachine":[
-         {
-            "img":"https://i.ibb.co/KV4511n/dwlfh1xi-250x250.jpg",
-            "title":"Semi Automatic Washing Machine",
-            "price":"779",
-            "rent":"Rent ₹779/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/kgHqX4F/xf04vdtv-250x250.jpg",
-            "title":"Front Load Washing Machine",
-            "price":"479",
-            "rent":"Rent ₹479/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/m6tkxfV/ex9dpggj-250x250.jpg",
-            "title":"Cloth Dryer",
-            "price":"979",
-            "rent":"Rent ₹979/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/G301Stk/g8cndm7d-250x250-1.jpg",
-            "title":"Top Load Washing Machine",
-            "price":"1129",
-            "rent":"Rent ₹1129/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         }
-      ]
-   },
-   {
-      "ac":[
-         {
-            "img":"https://i.ibb.co/KsSLLst/tj583ult-250x250.jpg",
-            "title":"Air Condition 1 Ton",
-            "price":"1779",
-            "rent":"Rent ₹1779/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/RP6wYTK/v1c75c2j-250x250.jpg",
-            "title":"Air Condition 1 Ton",
-            "price":"1879",
-            "rent":"Rent ₹1879/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         },
-         {
-            "img":"https://i.ibb.co/MDLvYHK/05gpq2h8-250x250.jpg",
-            "title":"Air Condition 1.5 Ton",
-            "price":"2279",
-            "rent":"Rent ₹2279/month",
-            "desc":"Perfectly designed to keep constant flow of clean air in your home, our air purifier removes allergens, pollen, odour & dust. Enjoy the breath of fresh air and breathe the difference. This purifier is perfect for a 10 ft by 12 ft room",
-            "size":"16inL x 14inB x 30inH",
-            "features":"Capacity/Size : 400 Sq.Ft  Brand: Whirlpool/Philips/Haier  Air Quality Indicator"
-         }
+         // ?----------------RRRRRRRRRRRRRRRRRRRRRRRR
       ]
    }
 ]
-
-
