@@ -93,18 +93,15 @@
 
     // banner end here  
 
-   
-
-
     let slideI = 1;
     showSlides(slideI);
 
-    // Next/previous controls
+    // Next/prev controls
     function plusSlides(n) {
         showSlides(slideI += n);
     }
 
-    // Thumbnail image controls
+    //  image controls
     function currentSlide(n) {
         showSlides(slideI = n);
     }
@@ -161,6 +158,7 @@
             div.addEventListener("click", function () {
                 let p = document.getElementById("change_location");
                 p.innerText = e.name;
+            
             })
         })
     }
@@ -237,7 +235,7 @@
                 localStorage.setItem("loginsuccess", true);
                 show_name_login_user();
                 alert("Login successfull");
-
+               window.location.href="index.html";
             } else {
                 alert("OTP not match");
             }
