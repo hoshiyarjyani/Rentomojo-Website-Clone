@@ -250,6 +250,48 @@
   background-color: white;
   z-index: 2;
 }
+#sectionitem{
+  background-color:#F5F7FA ;
+  padding: 3rem 0;
+  width: 133%;
+  margin-left: -180px;
+  padding: 70px 0px;
+}
+.thin{
+  font-weight: 500;
+}
+#mainProducts{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: auto;
+}
+#mainProducts>div>div{
+  display: flex;
+  justify-content: space-between;
+}
+#mainProducts button{
+  font-size: 10px;
+  padding: 5px 15px;
+  border: 1px solid red;
+  background-color: white;
+  color: red;
+  border-radius: 2px;
+}
+#mainProducts button:hover{
+  border: 1px solid red;
+  color: white;
+  background-color: red;
+  transition: all .2s ease-in;
+}
+#mainProducts>div{
+  width: 15%;
+  background-color: white;
+  padding: 1.5rem 1rem;
+}
+#mainProducts img{
+  width: 100%;
+}
 
 #login_popup > div:nth-child(1) {
   width: 45%;
