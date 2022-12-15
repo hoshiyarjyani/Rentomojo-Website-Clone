@@ -51,9 +51,6 @@ iframe {
     width: 90%;
 }
 
-#check {
-    padding: 10px;
-}
 
 #city_map {
     display: none;
@@ -107,21 +104,15 @@ button {
 
 h2 {
     margin-top: -10px;
-    color: rgb(83, 77, 77);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: 50;
+    font-weight:700;
     width: 35%;
+    font-size: 20px;
     padding: 10px;
-    background-color: rgb(238, 243, 247);
-    color: rgb(119, 116, 116);
-
-}
-
-#home:hover,
-h2:hover {
-    background-color: #dc3226;
-    color: white;
-
+    background-color: white;
+    color: #dc3226;
+/* border: 1px solid #dc3226; */
+margin-top: 0.3rem;
 }
 
 #top {
@@ -131,9 +122,32 @@ h2:hover {
 }
 
 #home {
-    background-color: rgb(238, 243, 247);
-    color: rgb(119, 116, 116);
-    padding-right: 100px;
+    background-color: #dc3226;
+    color: white;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 3px;
+    border: 1px solid #dc3226;
+}
+#home:hover {
+    background-color: white;
+    border: 1pxsolid #dc3226;
+    color: #dc3226;
+    padding-right: 50px;
     padding-left: 50px;
     font-size: large;
+}
+
+#check {
+    padding: 10px;
+    color: white;
+    background-color: #dc3226;
+    border: 2px;
+}
+#check:hover{
+    background-color: white;
+    border: 1px solid #dc3226;
+    color: #dc3226;
 }
