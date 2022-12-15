@@ -133,6 +133,18 @@
   cursor: pointer;
 }
 
+#check{
+  padding: 12px;
+  width: 100%;
+  font-size: large;
+  border: none;
+  color: rgb(84, 84, 84);
+}
+
+#check:hover{
+  background-color: white;
+}
+
 #location_box {
   position: fixed;
   top: 50px;
