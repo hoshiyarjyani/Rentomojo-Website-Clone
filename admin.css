@@ -37,3 +37,249 @@
     border: none;
     margin-top: 20px;
   }
+  #footer {
+    display: flex;
+    font-family: "Muli";
+    gap: 100px;
+    justify-content: space-between;
+    /* gap: 20px; */
+  }
+  
+  #footer li {
+    width: 100%;
+    list-style: none;
+    margin: 25px;
+    /* border: 10px solid red; */
+  }
+  
+  #footer a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #footer a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* 
+          .extra-width {
+              width: 125%;
+          } */
+  
+  #bottom_footer {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  
+  .B {
+    /* display: grid;
+              grid-template-columns: repeat(6, 1fr); */
+    display: flex;
+    /* gap:-50px; */
+    /* border: 5px solid red; */
+  }
+  
+  .B img {
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  #bd {
+    width: 100;
+  }
+  
+  #footer ol > div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  #footer ol > div img {
+    width: 30%;
+  }
+  
+  #footer > div:nth-child(4) {
+    margin-top: 25px;
+  }
+  
+  #footer ol button {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 20px 15px;
+  }
+  
+  #cb {
+    margin-top: 70px;
+    background-color: #f5f7fa;
+    width: 133%;
+    margin-left: -180px;
+    padding: 70px 0px;
+  }
+  
+  #footer {
+    width: 80%;
+    margin: auto;
+    background-color: #f5f7fa;
+    /* border: 5px solid black; */
+  }
+  
+  #cb .p {
+    width: 80%;
+    margin: auto;
+    background-color: #f5f7fa;
+    /* border: 5px solid black; */
+  }
+  
+  #med {
+    display: none;
+  }
+  @media all and (min-width: 480px) and (max-width: 720px) {
+    #med {
+      display: block;
+    }
+    /* Style the buttons that are used to open and close the outer inner */
+  
+    #med .outer {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 2px;
+      padding-left: 10px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+  
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    #med .active,
+    .outer:hover {
+      background-color: #ccc;
+    }
+  
+    /* Style the outer inner. Note: hidden by default */
+    #med .inner {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+  
+    #med ol button {
+      background-color: transparent;
+      font-size: 20px;
+      padding: 20px 15px;
+    }
+  
+    #med li {
+      width: 100%;
+      list-style: none;
+      margin: 25px;
+      /* border: 10px solid red; */
+    }
+  
+    #med a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    #med a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    #med ol > div img {
+      width: 25%;
+    }
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 480px) {
+    #med {
+      display: block;
+    }
+  
+    /* Style the buttons that are used to open and close the outer inner */
+    #med .outer {
+      display: block;
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 2px;
+      padding-left: 10px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+  
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    #med .active,
+    .outer:hover {
+      background-color: #ccc;
+    }
+  
+    /* Style the outer inner. Note: hidden by default */
+    #med .inner {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+  
+    #med ol button {
+      background-color: transparent;
+      font-size: 20px;
+      padding: 20px 15px;
+    }
+  
+    #med li {
+      width: 100%;
+      list-style: none;
+      margin: 25px;
+      /* border: 10px solid red; */
+    }
+  
+    #med a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    #med a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    #med ol > div img {
+      width: 30%;
+    }
+  }
+
+  #Data-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    text-align: center;
+  }
+  #Data-container>div>img{
+   width: 100%;
+  }
+  #Data-container>div>button{
+    padding: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(192, 23, 23);
+    color: white;
+    border: none;
+    margin-top: 20px;
+  }
+  
