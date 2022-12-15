@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Navigation.css">
+
+</head>
+
+<body>
+    <div id="top">
+        <h2>Hey!! wanna visit our store in your locality?</h2>
+        <a href="index.html"> <button id="home">Home</button> </a>
+    </div>
+    <div id="map_option">
+        <div id="map_india">
+            <button id="check">Click here to check our service with in India. </button>
+        </div>
+
+        <div id="map_particular">
+
+            <select name="city" id="city">
+                <option value="">Click here to select your city</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Noida">Noida</option>
+                <option value="Gurgaon">Gurgaon</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Ahmedabad">Ahmedabad</option>
+                <option value="Mysuru">Mysuru</option>
+                <option value="Faridabad">Faridabad</option>
+                <option value="Ghaziabad">Ghaziabad</option>
+                <option value="Gandhinagar">Gandhinagar</option>
+                <option value="Chandigarh">Chandigarh</option>
+
+
+
+            </select>
+        </div>
+    </div>
+    <div id="sim_model">
+        <div class="content">
+
+            <span class="close">&times;</span>
+            <div id="map">
+
+            </div>
+        </div>
+    </div>
+
+    <div id="city_map">
+        <div class="content">
+
+            <span class="close_city">&times;</span>
+            <div class="content_city">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</body>
+
+
+</html>
+
+<script>
+
+    //for india's Map.....
+    let button = document.getElementById("check")
+    let div = document.getElementById("sim_model")
+    button.addEventListener("click", display)
+
+    function display() {
+        div.style.display = "block"
+    }
+
+    let close = document.querySelector(".close")
+    close.addEventListener("click", closebtn)
+
+    function closebtn() {
+        div.style.display = "none"
+    }
+
+    //for city map......
+
+    let city_map = document.getElementById("city_map")
+    let cont = document.querySelector(".content_city")
+
+
+    let close_city = document.querySelector(".close_city")
+    close_city.addEventListener("click", closebtn_city)
+
+    function closebtn_city() {
+        city_map.style.display = "none"
+    }
+    city.addEventListener("change", check_city)
+    function display2() {
+        city_map.style.display = "block"
+    }
+    function check_city() {
+        let city = document.getElementById("city")
+        let x = city.value
+        if (x == "Delhi") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224348.5699571353!2d76.81631292499999!3d28.526299000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea875c7ada35%3A0x17db3186dcffd2c7!2sCityfurnish%20-%20Furniture%20and%20Appliances%20Rental!5e0!3m2!1sen!2sin!4v1671096016609!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+
+        }
+        else if (x == "Banglore") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15225887.331497986!2d71.41835016626379!3d21.300833322731442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20banglore!5e0!3m2!1sen!2sin!4v1671118847315!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+        else if (x == "Mumbai") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15272929.138263775!2d71.42394882843254!3d20.842103527767158!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20mumbai%20office!5e0!3m2!1sen!2sin!4v1671117459568!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Pune") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30249.369483895167!2d73.71672004265854!3d18.611368562328167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20pune!5e0!3m2!1sen!2sin!4v1671117546764!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Noida") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d30249.35530948567!2d73.71672003093734!3d18.611448286927597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20noida!5e0!3m2!1sen!2sin!4v1671117608547!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Gurgaon") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d224364.91655305802!2d77.06509814634659!3d28.51861759640459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20gurgaon!5e0!3m2!1sen!2sin!4v1671117707999!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Hyderabad") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15225887.331497986!2d71.41835016626379!3d21.300833322731442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20hyderabad!5e0!3m2!1sen!2sin!4v1671117790152!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Chennai") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.12492919865!2d80.12933031430431!3d12.963856818556996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525fc7e3029503%3A0x7d8ae3a859ec747a!2sRentomojo!5e0!3m2!1sen!2sin!4v1671117972626!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Ahmedabad") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15297901.557091307!2d62.58367289971959!3d20.594621402673013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae141c8ab3e71d%3A0x65bcd490d0477cbe!2sRentoMojo!5e0!3m2!1sen!2sin!4v1671118038785!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Mysuru") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d62375.95898925226!2d76.6119266720747!3d12.282251393551887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20mysore!5e0!3m2!1sen!2sin!4v1671118112387!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+
+        else if (x == "Faridabad") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d224309.85947789968!2d77.06509814897636!3d28.54448183033577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRentoMojo%20near%20Faridabad%2C%20Haryana!5e0!3m2!1sen!2sin!4v1671118276634!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Ghaziabad") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d224308.88102108825!2d77.06509745346706!3d28.54494128714007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRentoMojo%20near%20Ghaziabad%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1671118337601!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Gandhinagar") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d3817228.394383122!2d70.92633233707953!3d20.88163691449199!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srentomojo%20gandhinagar!5e0!3m2!1sen!2sin!4v1671120162075!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+        else if (x == "Chandigarh") {
+            display2()
+            cont.innerHTML = `<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15297901.557091307!2d62.58367289971957!3d20.594621402673013!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae141c8ab3e71d%3A0x65bcd490d0477cbe!2sRentoMojo!5e0!3m2!1sen!2sin!4v1671120229416!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`
+        }
+
+
+    }
+
+
+
+
+    function initMap() {
+        // The location of country
+        const location = { lat: 20.5937, lng: 78.9629 };
+
+        const map = new google.maps.Map(document.getElementById("map"), {
+            zoom: 5,
+            center: location,
+            mapId: "cb14489e8f6721c7",
+        });
+
+        const markers = [
+            [
+                22.5726,
+                88.3639,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in kolkata."
+            ],
+
+            [
+                12.9716,
+                77.5946,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Banglore."
+            ],
+
+            [
+                19.0760,
+                72.8777,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Mumbai."
+            ],
+
+            [
+                18.5204,
+                73.8567,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Pune."
+            ],
+
+            [
+                28.7041,
+                77.1025,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Delhi."
+            ],
+
+            [
+                28.5355,
+                77.3910,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Noida."
+            ],
+
+            [
+                28.4595,
+                77.0266,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Gurgaon."
+            ],
+
+            [
+                17.3850,
+                78.4867,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Hyderabad."
+            ],
+
+            [
+                13.0827,
+                80.2707,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Chennai."
+            ],
+
+
+            [
+                23.0225,
+                72.5714,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Ahmedabad."
+            ],
+
+            [
+                12.2958,
+                76.6394,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Mysuru."
+            ],
+
+
+            [
+                26.9124,
+                75.7873,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Jaipur."
+            ],
+
+            [
+                28.4089,
+                77.3178,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Faridabad ."
+            ],
+
+            [
+                28.6692,
+                77.4538,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Ghaziabad ."
+            ],
+
+            [
+                23.2156,
+                72.6369,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Gandhinagar ."
+            ],
+
+            [
+                30.7333,
+                76.7794,
+                "rentomojo-logo-9hy026.png",
+                30,
+                25,
+                "Hey!! wanna visit rentomarket in Chandigarh ."
+            ],
+
+
+
+
+
+
+
+
+        ];
+
+
+        for (i = 0; i < markers.length; i++) {
+            const current_marker = markers[i]
+
+            const marker = new google.maps.Marker({
+                position: { lat: current_marker[0], lng: current_marker[1] },
+                map: map,
+                icon: {
+                    url: current_marker[2],
+                    scaledSize: new google.maps.Size(current_marker[3], current_marker[4])
+                },
+                animation: google.maps.Animation.DROP,
+            });
+
+            const infowindow = new google.maps.InfoWindow({
+
+                content: current_marker[5],
+
+            });
+
+            marker.addListener("click", () => {
+                infowindow.open({
+                    anchor: marker,
+                    // map,
+                });
+            });
+        }
+
+
+
+
+
+        // The marker, positioned at location
+        /*const marker = new google.maps.Marker({
+          position: {lat:22.5726,lng:88.3639},
+          map: map,
+          icon:{
+              url:"rentomojo-logo-9hy026.png",
+              scaledSize:new google.maps.Size(30,25)
+          },
+          animation: google.maps.Animation.DROP,
+        });
+      
+      */
+        /* marker = new google.maps.Marker({
+           position: {lat:28.6139,lng:77.2090},
+           map: map,
+           icon:{
+               url:"rentomojo-logo-9hy026.png",
+               scaledSize:new google.maps.Size(30,25)
+           },
+           animation: google.maps.Animation.DROP,
+         });*/
+
+        const infowindow = new google.maps.InfoWindow({
+            content: "Hey!! wanna visit rentomarket in kolkata.",
+
+        });
+
+        marker.addListener("click", () => {
+            infowindow.open({
+                anchor: marker,
+                map,
+            });
+        });
+    }
+
+    window.initMap = initMap;
+
+
+
+
+
+
+
+
+
+    /*
+     button.addEventListener("click",display)
+ 
+     function display(){
+         div.style.display="block"
+     }
+ 
+     let close=document.querySelector(".close")
+     close.addEventListener("click",closebtn)
+ 
+     function closebtn(){
+         div.style.display="none"
+     }*/
+
+</script>
+<script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC86avxzhj4RTDMX9MUwW5g288JlZyxOI0&map_id=cb14489e8f6721c7&callback=initMap">
+    </script>

@@ -1,0 +1,139 @@
+body {
+    background: url("map-g5781074ff_1280.png");
+    border: white;
+}
+
+#sim_model {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.content {
+
+    background: transparent;
+    height: 70%;
+    width: 100%;
+    margin: 1%;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    ;
+}
+
+.content_city {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+
+}
+
+.close {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 60px;
+    color: white;
+}
+
+iframe {
+    height: 100%;
+    width: 90%;
+}
+
+#map {
+    height: 100%;
+    width: 90%;
+}
+
+#check {
+    padding: 10px;
+}
+
+#city_map {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close_city {
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    padding-right: 60px;
+    color: white;
+}
+
+button {
+    color: white;
+    background-color: #dc3226;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+#city {
+
+    background-color: #dc3226;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    cursor: pointer;
+
+}
+
+#map_option {
+    display: flex;
+    border: none;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: -10px;
+
+}
+
+h2 {
+    margin-top: -10px;
+    color: rgb(83, 77, 77);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    width: 35%;
+    padding: 10px;
+    background-color: rgb(238, 243, 247);
+    color: rgb(119, 116, 116);
+
+}
+
+#home:hover,
+h2:hover {
+    background-color: #dc3226;
+    color: white;
+
+}
+
+#top {
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+
+#home {
+    background-color: rgb(238, 243, 247);
+    color: rgb(119, 116, 116);
+    padding-right: 100px;
+    padding-left: 50px;
+    font-size: large;
+}
