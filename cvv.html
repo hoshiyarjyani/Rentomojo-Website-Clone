@@ -27,22 +27,36 @@
 
         .mainhead {
             text-align: center;
-            margin-top: 10%;
+           margin-top: 2%;margin-bottom: 4%;
         }
 
         button {
             margin-top: 2%;
             align-items: center;
             width: 100px;
-            height: 20px;
+            height: 30px;
             border-radius: 8px;
         }
 
         .s1 {
-            margin-left: 30%;
+            /* margin-left: 30%; */
             width: 300px;
             height: 30px;
             border-radius: 15px;
+        }
+
+        input {
+            padding-left: 1%;
+            margin-left: 12%;
+        }
+
+        .sha {
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+            width: 31%;
+            margin: auto;
+            height: 300px;
+            padding: 2%;
+            border-radius: 15px;margin-top: 7%;
         }
     </style>
     <link rel="stylesheet" href="/admin.css">
@@ -60,19 +74,20 @@
         </div>
     </div>
 
-    <h3 class="mainhead">Please enter Otp</h3>
+
     <div class="maincon">
+        <div class="sha">
+            <h3 class="mainhead">Please Enter OTP</h3>
+            <div class="lhs">
 
 
-        <div class="lhs">
+                <input type="number" placeholder=". OTP" class="s1">
 
 
-            <input type="number" placeholder="Otp" class="s1">
+                <button id="cvvbtn">submit</button>
 
 
-            <button id="cvvbtn">submit</button>
-
-
+            </div>
         </div>
     </div>
 </body>

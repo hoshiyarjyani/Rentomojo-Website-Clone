@@ -20,11 +20,13 @@
         }
 
         .maincon {
-            border: 1px solid red;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            height: 600px;
+            height: 750px;
+            width: 80%;
+            margin: auto;padding-bottom: 3%;border-radius: 15px;
 
             height: 400px;
         }
@@ -39,6 +41,10 @@
             align-items: center;
             border-radius: 8px;
             margin-top: 35%;
+        }
+
+        input {
+            padding-left: 2%;
         }
 
         .s9 {
@@ -94,7 +100,7 @@
             <form action="" id="rhsform">
                 <input type="text" placeholder="Name of Account Holder" class="s7"><br>
 
-                <input type="number" placeholder="Account No." class="s8"><br><input type="number" placeholder="Cvv"
+                <input type="number" placeholder="Card No." class="s8"><br><input type="number" placeholder="Cvv"
                     class="s9"><br>
                 <input type="submit" class="sub" id="subbtn">
 
@@ -148,18 +154,18 @@
             alert("Please enter the Account Holder Name")
         }
         else if (data8.value == "") {
-            alert("Please enter the Account No.")
+            alert("Please enter the Card No.")
         } else if (data8.value.length < 11 || data8.innerText.value > 11) {
-            alert("Please check the account no.")
+            alert("Please check the Card No.")
         }
         else if (data9.value == "") {
             alert("Please enter the Phone.No")
         }
         else if (data9.value.length < 3 || data9.value.length > 3) {
             alert("Please enter correct Cvv")
-        }else{
+        } else {
             console.log("S");
-            window.location.href= "cvv.html"
+            window.location.href = "cvv.html"
         }
         console.log("s");
     }))
