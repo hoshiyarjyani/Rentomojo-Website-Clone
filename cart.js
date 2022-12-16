@@ -185,9 +185,8 @@ if (
     let tot2 = document.createElement("button");
     tot2.innerText = "Checkout";
     tot2.addEventListener("click", function () {
-      alert("Your order is confirmed!!");
-      localStorage.setItem("cartpage", null);
-      window.location.href = "index.html";
+      
+      window.location.href = "paypage.html";
     });
     total.append(tot1, tot2);
     checkout.append(total);

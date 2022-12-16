@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        form>input {
+            margin-top: 20px;
+            height: 30px;
+            width: 400px;
+            border-radius: 8px;
+        }
+
+
+
+        #navbar {
+            display: none;
+        }
+
+        .mainhead {
+            text-align: center;
+            margin-top: 10%;
+        }
+
+        button {
+            margin-top: 2%;
+            align-items: center;
+            width: 100px;
+            height: 20px;
+            border-radius: 8px;
+        }
+
+        .s1 {
+            margin-left: 30%;
+            width: 300px;
+            height: 30px;
+            border-radius: 15px;
+        }
+    </style>
+    <link rel="stylesheet" href="/admin.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div><img src="https://www.rentomojo.com/public/images/Home/new/ham__icon.svg" id="dropdown_menu_open"
+                alt=""><img src="https://www.rentomojo.com/public/images/Home/new/logo.svg" alt=""></div>
+        <div onclick="goToHome()"><img src="https://www.rentomojo.com/public/images/logo.svg" alt=""></div>
+        <div>
+            <div id="location">
+                <!-- <p id="change_location"><b>WELCOME TO THE ADMIN PAGE</b></p> -->
+            </div>
+        </div>
+    </div>
+
+    <h3 class="mainhead">Please enter Otp</h3>
+    <div class="maincon">
+
+
+        <div class="lhs">
+
+
+            <input type="number" placeholder="Otp" class="s1">
+
+
+            <button id="cvvbtn">submit</button>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
+<script>
+    document.querySelector("#cvvbtn").addEventListener("click", (() => {
+        data_q = document.querySelector(".lhs>input").value;
+        if (data_q === "12345") {
+            alert("Your product is ordered Sucessfully" + "\n" + "order id=uid345hern1234j");
+            // alert("Your order is confirmed!!");
+            localStorage.setItem("cartpage", null);
+            window.location.href = "/index.html";
+        } else {
+            alert("Please enter correct Otp");
+        }
+    }))
+
+
+</script>
