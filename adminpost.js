@@ -2,55 +2,26 @@ let name = JSON.parse(sessionStorage.getItem("key-name"));
 let display = document.getElementById("location");
 display.innerHTML = `<b>WELCOME ${name}</b>`;
 
-async function dataFetch(){
-    try {
-        let req_data = await fetch("./admin.json");
-        if(req_data.ok===true){
-        let req_data_real = await req_data.json();
-        // console.log(req_data_real);
-        displayCard(req_data_real);
-       }
-        
-    } catch (error) {
-        console.log("something went wrong,Server Error")
-    }
-}
+let adminarr=JSON.parse(localStorage.getItem("add_data"))||[];
 
-dataFetch();
+document.querySelector("#publishdata").addEventListener("click",function(){
+  let img = document.querySelector("#productimage").value;
+  let title = document.querySelector("#producttitle").value;
+  let price = document.querySelector("#productprice").value;
+  let rent = document.querySelector("#producrent").value;
+  let features = document.querySelector("#productfeatures").value;
 
-function displayCard(data){
-    document.querySelector("#Data-container").innerHTML="";
-    data.forEach(function(elem){
-      let div = document.createElement("div");
+  let admin_object = {"image":img,"title":title,"price":price,"rent":rent,"product-features":features};
 
-      let imageProd = document.createElement("img");
-      imageProd.setAttribute("src",elem.img);
+  adminarr.push(admin_object);
 
-      let title = document.createElement("p");
-      title.innerText = elem.title;
+  localStorage.setItem("add_data",JSON.stringify(adminarr));
+  alert("Product is added to the main page");
 
-      let price = document.createElement("p");
-      price.innerText = elem.price;
+});
 
-      let rent = document.createElement("p");
-      rent.innerText = elem.rent;
-
-      let features = document.createElement("p");
-      features.innerText = elem.features;
-
-      let btn_add = document.createElement("button");
-      btn_add.innerText = "Add this Item to Product Page";
-      btn_add.addEventListener("click",function(){
-        alert("Product is added to Main Page");
-      })
-
-      let btn_del = document.createElement("button");
-      btn_del.innerText = "Delete this Item from Product Page"
-
-      div.append(imageProd,title,price,rent,features,btn_add,btn_del);
-
-      document.querySelector("#Data-container").append(div);
-    })
-  }
+document.querySelector("#seedata").addEventListener("click",function(){
+  window.location.href = "admin_view_product.html";
+})
 
 

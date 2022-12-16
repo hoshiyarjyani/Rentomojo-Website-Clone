@@ -18,7 +18,7 @@
   }
   #login_details_div{
     text-align: center;
-    color: rgb(219, 34, 34);
+    color: #DC3226;
   }
   #login_details > div:nth-child(2){
     text-align: center;
@@ -32,24 +32,26 @@
     padding: 10px;
     cursor: pointer;
     font-size: 18px;
-    background-color: rgb(192, 23, 23);
+    background-color: #DC3226;
     color: white;
     border: none;
     margin-top: 20px;
+    border-radius: 10px;
+  }
+  #login_details>div:nth-child(2)>button:hover{
+    background-color: blue;
   }
   #footer {
     display: flex;
     font-family: "Muli";
     gap: 100px;
     justify-content: space-between;
-    /* gap: 20px; */
   }
   
   #footer li {
     width: 100%;
     list-style: none;
     margin: 25px;
-    /* border: 10px solid red; */
   }
   
   #footer a {
@@ -61,11 +63,6 @@
     color: black;
     text-decoration: underline;
   }
-  
-  /* 
-          .extra-width {
-              width: 125%;
-          } */
   
   #bottom_footer {
     width: 80%;
@@ -277,9 +274,46 @@
     padding: 8px;
     cursor: pointer;
     font-size: 18px;
-    background-color: rgb(192, 23, 23);
+    background-color: #DC3226;
     color: white;
     border: none;
     margin-top: 20px;
+  }
+  #admin-form{
+    text-align: center;
+  }
+  #admin-form>form>input{
+    padding: 15px;
+    margin-top: 20px;
+    width: 500px;
+  }
+  #admin-form>form>button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #DC3226;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  #admin-form>h2{
+    color: #DC3226;
+  }
+  #admin-form>form>button:hover{
+    background-color: blue;
+  }
+  #seedata{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #DC3226;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  #seedata:hover{
+    background-color: blue;
   }
   
