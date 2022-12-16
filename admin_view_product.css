@@ -1,0 +1,964 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0px auto 40px auto;
+    padding: 10px 5%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }
+  
+  #navbar > div:nth-child(1) {
+    display: none;
+  }
+  
+  #navbar > div:nth-child(2) {
+    cursor: pointer;
+  }
+  #location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 20px;
+    cursor: pointer;
+  }
+  
+  #location > img {
+    width: 50%;
+    margin: 0px 5px;
+  }
+  
+  #navbar > div:nth-child(4) {
+    width: 50%;
+  }
+  
+  #navbar > div:nth-child(4) > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(207, 207, 207);
+    background-color: rgb(247, 247, 247);
+    color: black;
+  }
+  
+  #navbar > div:nth-child(4) > input:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  #navbar > div:nth-child(5) {
+    width: 55px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  #navbar > div:nth-child(5) > img {
+    width: 100%;
+  }
+  
+  #navbar > div:nth-child(6) > button {
+    color: white;
+    background-color: #dc3226;
+    border: 1px solid #dc3226;
+    /* border: none; */
+    border-radius: 10px;
+    padding: 10px 18px;
+    transition: 0.3s cubic-bezier(0.25, 0.8, 0.5, 1);
+    font-size: 15px;
+  }
+  
+  #navbar > div:nth-child(6) > button:hover {
+    background-color: white;
+    color: #dc3226;
+    border: 1px solid #dc3226;
+    border-radius: 10px;
+    padding: 10px 18px;
+  }
+  
+  #search_down {
+    display: none;
+  }
+  
+  #menu {
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 55%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 0px;
+    display: none;
+    z-index: 2;
+  }
+  
+  #menu > div:nth-child(1) {
+    margin: 30px 20px 50px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #menu > div:nth-child(1) > div:nth-child(2) {
+    width: 25px;
+  }
+  
+  #menu > div:nth-child(1) > div:nth-child(2) > img {
+    width: 100%;
+  }
+  
+  #menu > div:nth-child(2) {
+    margin: 10px 0px 0px 40px;
+  }
+  
+  #menu > div:nth-child(2) > ul > li {
+    list-style-type: none;
+    padding: 5px;
+    margin: 25px 0px;
+  }
+  #home_login_button {
+    cursor: pointer;
+  }
+  
+  #menu > div:nth-child(2) > ul > li > a {
+    text-decoration: none;
+    color: rgb(126, 126, 126);
+  }
+  
+  #dropdown_menu_close {
+    cursor: pointer;
+  }
+  
+  #dropdown_menu_open {
+    cursor: pointer;
+  }
+  
+  #location_box {
+    position: fixed;
+    top: 50px;
+    width: 70%;
+    left: 15%;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* display: grid; */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    display: none;
+    z-index: 2;
+  }
+  
+  #location_box > div {
+    cursor: pointer;
+  }
+  
+  #location_box > div:nth-child(1) {
+    grid-area: 1/1/2/5;
+    width: 150px;
+    margin: 20px auto;
+  }
+  
+  #location_box > div:nth-child(1) > button {
+    background-color: rgb(214, 214, 214);
+    border-radius: 0px;
+    padding: 10px 30px;
+    border: 1px solid rgb(205, 205, 205);
+    font-size: 20px;
+    width: 100%;
+    color: rgb(84, 84, 84);
+  }
+  
+  #location_box > div:nth-child(1) > button:hover {
+    background-color: white;
+  }
+  
+  @media all and (max-width: 1000px) {
+    #navbar {
+      width: 100%;
+      padding: 10px 0px;
+      margin-bottom: 0px;
+      box-shadow: none;
+    }
+  
+    #navbar > div:nth-child(1) {
+      display: block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 15px;
+    }
+  
+    #navbar > div:nth-child(1) > img:nth-child(1) {
+      margin-left: 15px;
+    }
+  
+    #navbar > div:nth-child(1) > img:nth-child(2) {
+      margin-left: 15px;
+    }
+  
+    #navbar > div:nth-child(2) {
+      display: none;
+    }
+  
+    #navbar > div:nth-child(3) {
+      display: none;
+    }
+  
+    #navbar > div:nth-child(4) {
+      display: none;
+    }
+  
+    #navbar > div:nth-child(6) {
+      display: none;
+    }
+  
+    #navbar > div:nth-child(5) {
+      margin-right: 15px;
+      cursor: pointer;
+    }
+  
+    #search_down {
+      display: block;
+      width: 80%;
+      margin: 0px auto 20px auto;
+    }
+  
+    #search_down > input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 10px;
+      font-size: 16px;
+      border: 1px solid rgb(207, 207, 207);
+      background-color: rgb(247, 247, 247);
+      color: black;
+    }
+  }
+  
+  /* this is login signup */
+  #login_popup {
+    width: 64vw;
+    /* height: 80vh; */
+    position: fixed;
+    top: 10vh;
+    left: 18vw;
+    /* padding: 20px; */
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    justify-content: space-between;
+    display: none;
+    background-color: white;
+    z-index: 2;
+  }
+  
+  #login_popup > div:nth-child(1) {
+    width: 45%;
+    margin-left: 40px;
+    margin-right: 20px;
+  }
+  
+  #login_popup > div:nth-child(1) > img {
+    width: 90%;
+  }
+  
+  #login_popup > div:nth-child(2) {
+    width: 45%;
+    padding-top: 40px;
+    padding-right: 50px;
+  }
+  
+  #login_popup > div:nth-child(2) > label {
+    margin-top: 20%;
+  }
+  
+  #login_popup > div:nth-child(2) > input {
+    width: 100%;
+    margin-top: 4px;
+    padding: 5px;
+  }
+  
+  #login_popup > div:nth-child(2) > button {
+    width: 100%;
+    margin-top: 55%;
+    padding: 5px;
+  }
+  
+  @media all and (max-width: 900px) {
+    #login_popup_img {
+      display: none;
+    }
+  
+    #login_popup > div:nth-child(2) {
+      width: 70%;
+      padding: 40px;
+      margin: auto;
+    }
+  }
+  
+  /* banner add from here  */
+  #items {
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 70px;
+  
+    /* border: 5px solid black; */
+  }
+  
+  #items div {
+    /* width: 100%; */
+    /* margin: auto; */
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.7s cubic-bezier(0.25, 0.8, 0.5, 1);
+  }
+  
+  #items img {
+    width: 100%;
+  }
+  
+  #items div:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: scale(1);
+  }
+  
+  #cont {
+    width: 75%;
+    height: 400px;
+    margin: auto;
+    border-radius: 30px;
+    z-index: 1;
+  }
+  
+  :root {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  /* banner */
+  .banner {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .banner_inner {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .banner_inner::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  
+  .banner_item {
+    position: relative;
+    float: left;
+    display: none;
+    width: 100%;
+    margin-right: -100%;
+  }
+  
+  /* slide effect */
+  .banner_item__active,
+  .banner_item__pos_prev,
+  .banner_item__pos_next {
+    display: block;
+  }
+  
+  .banner_item__pos_prev {
+    left: -100%;
+  }
+  
+  .banner_item__pos_next {
+    left: 100%;
+  }
+  
+  .banner_item__prev {
+    transform: translateX(100%);
+    transition: transform 10s ease-in-out;
+  }
+  
+  .banner_item__next {
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* fade effect */
+  .banner__fade .banner_item__pos_prev,
+  .banner__fade .banner_item__pos_next {
+    left: 0;
+    opacity: 0;
+  }
+  
+  .banner__fade .banner_item__prev,
+  .banner__fade .banner_item__next {
+    transform: none;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .banner__fade .banner_item__active.banner_item__prev,
+  .banner__fade .banner_item__active.banner_item__next {
+    opacity: 0;
+  }
+  
+  /* banner */
+  .banner_img {
+    display: block;
+    width: 100%;
+  }
+  
+  .banner_caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 4rem;
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+  }
+  
+  .banner_title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+  
+  .banner_description {
+    margin-top: 0.75rem;
+    line-height: 150%;
+  }
+  
+  .banner_indicator {
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    z-index: 1;
+  }
+  
+  .banner_dot {
+    display: block;
+    padding: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.25);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.8s ease-in-out;
+  }
+  
+  .banner_dot__active {
+    background-color: lightskyblue;
+    cursor: default;
+    pointer-events: none;
+  }
+  
+  .banner_control {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .banner_button {
+    display: block;
+    padding-inline: 1rem;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.375rem;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.25);
+    border: none;
+    cursor: pointer;
+    transition: color 0.25s;
+    z-index: 1;
+  }
+  
+  .banner_button:hover {
+    color: rgba(135, 206, 250, 0.75);
+  }
+  
+  .covid-warn {
+    padding-top: 25px;
+    padding-bottom: 15px;
+  
+    width: 100%;
+    border-radius: 20px;
+    /* height: 70px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 5px solid black; */
+    background-color: #d4e0e9;
+    margin-top: -15px;
+  }
+  
+  .covid-warn p {
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  @media all and (min-width: 480px) and (max-width: 720px) {
+    #cb {
+      display: none;
+    }
+  
+    #cont {
+      /* display: none; */
+      width: 95%;
+      height: 400px;
+      margin: auto;
+      border-radius: 30px;
+      z-index: 1;
+    }
+  
+    .covid-warn p {
+      width: 90%;
+      margin: auto;
+      font-size: 10px;
+    }
+  
+    #items {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 480px) {
+    #cont {
+      /* display: none; */
+      width: 100%;
+      height: 400px;
+      margin: auto;
+      border-radius: 30px;
+      z-index: 1;
+    }
+  
+    .covid-warn p {
+      width: 90%;
+      margin: auto;
+      font-size: 10px;
+    }
+  
+    #items {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  /* div3 started  */
+  
+  #cont3 {
+    display: grid;
+    width: 90%;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 200px 200px;
+    border: 0px solid red;
+    padding: 70px;
+  }
+  
+  .sub3 {
+    border: 0px solid blue;
+  }
+  
+  #div3 {
+    margin-top: 40px;
+    background-color: azure;
+  }
+  
+  h2 {
+    margin-left: 70px;
+  }
+  
+  #un {
+    margin-top: -20px;
+    /* text-decoration: underline; */
+    /* text-decoration-color: red; */
+  }
+  
+  #know {
+    color: skyblue;
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 720px) {
+    #div3 {
+      display: none;
+    }
+  }
+  
+  /* div4 */
+  
+  /* Slideshow container */
+  .slideshow4 {
+    width: 800px;
+    position: relative;
+    margin: auto;
+    border: 0px solid red;
+    padding-bottom: 150px;
+    background-image: url("https://i.ibb.co/YDvkbhb/inv.jpg");
+    background-repeat: no-repeat;
+    background-position: 600px 0px;
+    z-index: 3;
+  }
+  
+  /* Hide the images by default */
+  .mySlides4 {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: relative;
+    top: 25%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    /* right: 1000px; */
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev,
+  .next {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  .mySlides4 img {
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+  }
+  
+  .active,
+  .dot:hover {
+    background-color: #717171;
+  }
+  
+  #div4 {
+    display: flex;
+    padding-left: 100px;
+    margin: auto;
+    background-color: azure;
+    height: 500px;
+  }
+  
+  #un {
+    margin-top: -20px;
+    /* text-decoration: underline;
+              text-decoration-color: red; */
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 720px) {
+    #cb {
+      display: none;
+    }
+    /* #bottom_footer{
+                  display: none;
+              } */
+    #div4 {
+      display: none;
+    }
+  }
+  
+  /* footer here  */
+  
+  #footer {
+    display: flex;
+    font-family: "Muli";
+    gap: 100px;
+    justify-content: space-between;
+    /* gap: 20px; */
+  }
+  
+  #footer li {
+    width: 100%;
+    list-style: none;
+    margin: 25px;
+    /* border: 10px solid red; */
+  }
+  
+  #footer a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #footer a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* 
+          .extra-width {
+              width: 125%;
+          } */
+  
+  #bottom_footer {
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+  }
+  
+  .B {
+    /* display: grid;
+              grid-template-columns: repeat(6, 1fr); */
+    display: flex;
+    /* gap:-50px; */
+    /* border: 5px solid red; */
+  }
+  
+  .B img {
+    width: 40%;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+  }
+  
+  #bd {
+    width: 100;
+  }
+  
+  #footer ol > div {
+    display: flex;
+    gap: 20px;
+  }
+  
+  #footer ol > div img {
+    width: 30%;
+  }
+  
+  #footer > div:nth-child(4) {
+    margin-top: 25px;
+  }
+  
+  #footer ol button {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 20px 15px;
+  }
+  
+  #cb {
+    margin-top: 70px;
+    background-color: #f5f7fa;
+    width: 133%;
+    margin-left: -180px;
+    padding: 70px 0px;
+  }
+  
+  #footer {
+    width: 80%;
+    margin: auto;
+    background-color: #f5f7fa;
+    /* border: 5px solid black; */
+  }
+  
+  #cb .p {
+    width: 80%;
+    margin: auto;
+    background-color: #f5f7fa;
+    /* border: 5px solid black; */
+  }
+  
+  #med {
+    display: none;
+  }
+  @media all and (min-width: 480px) and (max-width: 720px) {
+    #med {
+      display: block;
+    }
+    /* Style the buttons that are used to open and close the outer inner */
+  
+    #med .outer {
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 2px;
+      padding-left: 10px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+  
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    #med .active,
+    .outer:hover {
+      background-color: #ccc;
+    }
+  
+    /* Style the outer inner. Note: hidden by default */
+    #med .inner {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+  
+    #med ol button {
+      background-color: transparent;
+      font-size: 20px;
+      padding: 20px 15px;
+    }
+  
+    #med li {
+      width: 100%;
+      list-style: none;
+      margin: 25px;
+      /* border: 10px solid red; */
+    }
+  
+    #med a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    #med a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    #med ol > div img {
+      width: 25%;
+    }
+  }
+  
+  @media all and (min-width: 320px) and (max-width: 480px) {
+    #med {
+      display: block;
+    }
+  
+    /* Style the buttons that are used to open and close the outer inner */
+    #med .outer {
+      display: block;
+      background-color: #eee;
+      color: #444;
+      cursor: pointer;
+      padding: 2px;
+      padding-left: 10px;
+      width: 100%;
+      text-align: left;
+      border: none;
+      outline: none;
+      transition: 0.4s;
+    }
+  
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    #med .active,
+    .outer:hover {
+      background-color: #ccc;
+    }
+  
+    /* Style the outer inner. Note: hidden by default */
+    #med .inner {
+      padding: 0 18px;
+      background-color: white;
+      display: none;
+      overflow: hidden;
+    }
+  
+    #med ol button {
+      background-color: transparent;
+      font-size: 20px;
+      padding: 20px 15px;
+    }
+  
+    #med li {
+      width: 100%;
+      list-style: none;
+      margin: 25px;
+      /* border: 10px solid red; */
+    }
+  
+    #med a {
+      text-decoration: none;
+      color: black;
+    }
+  
+    #med a:hover {
+      color: black;
+      text-decoration: underline;
+    }
+  
+    #med ol > div img {
+      width: 30%;
+    }
+  }
+  #cardcontainer{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  #cardcontainer>div{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      text-align: center;
+      padding: 10px;
+  }
+  #cardcontainer>div>button{
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: #DC3226;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  #cardcontainer>div>button:hover{
+    background-color: blue;
+  }
+  
+  

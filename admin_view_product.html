@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rentomojo</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Condensed' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet'>
+  <link rel="stylesheet" href="/admin_view_product.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div><img src="https://www.rentomojo.com/public/images/Home/new/ham__icon.svg" id="dropdown_menu_open"
+                alt=""><img src="https://www.rentomojo.com/public/images/Home/new/logo.svg" alt=""></div>
+        <div onclick="goToHome()"><img src="https://www.rentomojo.com/public/images/logo.svg" alt=""></div>
+        <div>
+            <div id="location">
+                <p id="change_location">Jaipur</p><img
+                    src="https://cdn.icon-icons.com/icons2/1904/PNG/512/downarrow_121316.png" alt="">
+            </div>
+        </div>
+        <div><input type="text" id="nav_search" oninput="nav_search_fn()" placeholder="Search for Product"></div>
+        <div><img src="img/cart.png" onclick="cart_clicked()" alt=""></div>
+        <div><button id="home_login_button" onclick="show_login_popup()">LOGIN / SIGNUP</button></div>
+    </div>
+    <div id="menu">
+        <div>
+            <div><img src="https://www.rentomojo.com/public/images/logo.svg" alt=""></div>
+            <div><img id="dropdown_menu_close"
+                    src="data:image/png;base64,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"
+                    alt=""></div>
+        </div>
+        <div>
+            <ul>
+                <li><a href="" onclick="show_login_popup()">Login/Signup</a></li>
+                <li><a href="">Categories</a></li>
+                <li><a href="">Read More</a></li>
+                <li><a href="">Need Help</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="location_box">
+        <div><button id="location_box_close">Close</button></div>
+    </div>
+    <div id="search_down">
+        <input type="text" id="nav_search_down" oninput="nav_search_fn()" placeholder="Search for Product">
+    </div>
+    <!-- loginsignup started -->
+
+    <div id="login_popup">
+        <div id="login_popup_img"><img src="img/login_side.png" alt=""></div>
+        <div>
+            <label for="">Enter Your Number to Login or Signup</label>
+            <input type="text" id="login_phone_data" placeholder="Enter Phone Number*">
+            <input type="text" id="login_name_data" placeholder="Enter Name*">
+            <input type="text" name="" id="login_otp_data" placeholder="Enter OTP">
+            <button id="login_data_submit_button">Continue</button>
+        </div>
+    </div>
+
+
+    <!-- banner addd from here -->
+
+    <div id="cont">
+
+        <div class="banner">
+            <div class="banner_inner">
+                <div class="banner_item banner_item__active">
+                    <img src="https://s.rmjo.in/Paytm-Bank-Desktop-banner-%20(1).jpg" alt="" class="banner_img">
+                </div>
+                <div class="banner_item">
+                    <img src="https://s.rmjo.in/Fitness-offer-banner-for-Web--2.jpg" alt="" class="banner_img">
+                </div>
+                <div class="banner_item">
+                    <img src="https://s.rmjo.in/AC-Offer-Banner-Web-.jpg" alt="" class="banner_img">
+                </div>
+                <div class="banner_item">
+                    <img src="https://s.rmjo.in/WP-Web.png" alt="" class="banner_img">
+                </div>
+                <div class="banner_indicator">
+                    <button class="banner_dot banner_dot__active"></button>
+                    <button class="banner_dot"></button>
+                    <button class="banner_dot"></button>
+                </div>
+
+                <div class="banner_control">
+                    <button class="banner_button banner_button__prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="banner_button banner_button__next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="covid-warn">
+                <p>
+                    Safety precautions during COVID-19. We’re taking additional steps and precautionary measures to
+                    protect our community from COVID-19. <span><a href="">&nbsp&nbsp Know more ></a></span></p>
+            </div>
+        </div>
+
+
+
+        <div id="items">
+            <div><img src="https://i.ibb.co/HhXHCsB/Screenshot-4335.png" alt="" /></div>
+            <a href="furniture.html">
+
+                <div> <img src="https://i.ibb.co/m0YCPLm/fur.png" alt="" /></div>
+            </a>
+            <a href="appliances.html">
+
+                <div> <img src="https://i.ibb.co/xswBYxk/app.png" alt="" /></div>
+            </a>
+            <div> <img src="https://i.ibb.co/zNdbgpw/ele.png" alt="" /></div>
+            <div><img src="https://i.ibb.co/1zdRzRm/fitness.png" alt="" /></div>
+            <div><img src="https://i.ibb.co/s5QjXKP/essen.png" alt="" /></div>
+        </div>
+
+        <!--append the new product here-->
+        <div id="cardcontainer">
+          
+        </div>
+
+        <!-- div3 started   -->
+        <div id="div3">
+           
+            <div id="cont3">
+                <div class="sub3">
+                    <img src="https://i.ibb.co/6r032rM/sub1.jpg" alt="">
+                    <h3>Finest-quality products</h3>
+                    <p>Quality matters to you, and us! That's why we do a strict quality-check for every product.</p>
+                </div>
+
+                <div class="sub3">
+                    <img src="https://i.ibb.co/wMwTZPV/sub2.jpg" alt="">
+                    <h3>Free relocation</h3>
+                    <p>Changing your house or even your city? We'll relocate your rented products for free.</p>
+                </div>
+
+                <div class="sub3">
+                    <img src="https://i.ibb.co/ckv3sKg/sub3.jpg" alt="">
+                    <h3>Free maintenance</h3>
+                    <p>Keeping your rented products in a spick and span condition is on us, so you can sit back and
+                        relax.</p>
+                </div>
+
+                <div class="sub3">
+                    <img src="https://i.ibb.co/dW4yGF7/sub4.jpg" alt="">
+                    <h3>Cancel anytime</h3>
+                    <p>Pay only for the time you use the product and close your subscription without any hassle.</p>
+                </div>
+
+                <div class="sub3">
+                    <img src="https://i.ibb.co/N1W5m0K/sub5.jpg" alt="">
+                    <h3>Easy return on delivery</h3>
+                    <p>If you don't like the product on delivery, you can return it right away—no questions asked.</p>
+                </div>
+
+                <div class="sub3">
+                    <img src="https://i.ibb.co/MN9hLbP/sub6.jpg" alt="">
+                    <h3>Keep upgrading</h3>
+                    <p>Bored of the same product? Upgrade to try another, newer design and enjoy the change!</p>
+                </div>
+
+            </div>
+
+            <a href="">
+                <h2 id="know">KNOW MORE</h2>
+            </a>
+        </div>
+
+        <!-- div4 -->
+
+
+        <!-- footer added -->
+
+        <div id="cb">
+
+            <div class="p">
+                <h3>RentoMojo: Upgrade To Your Dream Lifestyle At An Unbelievably Low Price!</h3> <br>
+                <p>
+                    RentoMojo is your ticket to a better lifestyle in India. We provide designer furniture, the newest
+                    gadgets, and bestselling appliances on rent in major Indian cities. You can use the best products
+                    available in the market at just a fraction of their retail value. You pay us a small monthly fee,
+                    which becomes lesser the longer you rent from us. <br> <br>
+                    Besides saving you money, we do our best to provide you with an exceptional, super-comfortable
+                    rental experience. Our ordering process is straightforward and efficient. You can order from us in a
+                    matter of minutes from your PC or smartphone. We offer speedy delivery in major Indian cities,
+                    namely Bangalore, Mumbai, Delhi, Chennai, Pune, Hyderabad, Gurgaon, and Noida. <br> <br>
+                    No matter what product you rent from us, we will provide you with several complementary benefits
+                    with it. The benefits range from a yearly product swap option to a periodic free maintenance
+                    service. These are benefits no regular retailer offers. Start renting now! <br>
+                    Read More </p> <br> <br>
+            </div>
+
+
+            <div id="footer">
+
+
+
+                <div>
+                    <ol>
+                        <h3>RENTOMOJO</h3>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">Culture</a></li>
+                        <li><a href="">Investors</a></li>
+                        <li><a href="">Careers</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Our Benefits</a></li>
+                        <li><a href="">Sitemap</a></li>
+                    </ol>
+                </div>
+
+
+                <div>
+                    <ol>
+                        <h3>INFORMATION</h3>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">FAQs</a></li>
+                        <li><a href="">Document Required</a></li>
+                    </ol>
+                </div>
+
+                <div>
+                    <ol>
+                        <h3>POLICIES</h3>
+                        <li><a href="">Shipping Policy</a></li>
+                        <li><a href="">Cancellation and Return</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Press</a></li>
+                        <li><a href="">Rental Terms and Conditions</a></li>
+                        <li><a href="">Referral Terms and Conditions</a></li>
+                    </ol>
+                </div>
+                <div class="C">
+
+                    <ol>
+
+
+                        <h3>NEED HELP ?</h3>
+                        <button style="margin-top: 20px;">Chat with us (9AM - 6PM)</button>
+                        <P style="margin-top: 20px;">jo@rentomojo.com</P>
+                        <p style="margin-top: 20px;">Download App</p>
+
+                        <div style="margin-top: 20px;">
+
+                            <img src="https://i.ibb.co/q9vV8nb/Whats-App-Image-2022-08-23-at-11-44-54-PM.jpg" alt="">
+                            <img src="https://i.ibb.co/fxYZtyr/Whats-App-Image-2022-08-23-at-11-44-54-PM-1.jpg" alt="">
+                        </div>
+
+
+                    </ol>
+
+
+
+                </div>
+
+            </div>
+
+
+
+
+
+        </div>
+
+        <!-- //medium screen -->
+
+        <div id="med">
+            <button class="outer">
+                <h4>RENTOMOJO</h4>
+            </button>
+            <div class="inner">
+                <p>
+                <ol>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Culture</a></li>
+                    <li><a href="">Investors</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Our Benefits</a></li>
+                    <li><a href="">Sitemap</a></li>
+                </ol>
+                </p>
+            </div>
+        
+            <button class="outer">
+                <h4>INFORMATION</h4>
+            </button>
+            <div class="inner">
+                <p>
+                <ol>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="">Document Required</a></li>
+                </ol>
+                </p>
+            </div>
+        
+            <button class="outer">
+                <h4>POLICIES</h4>
+            </button>
+            <div class="inner">
+                <p>
+                <ol>
+                    <li><a href="">Shipping Policy</a></li>
+                    <li><a href="">Cancellation and Return</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Press</a></li>
+                    <li><a href="">Rental Terms and Conditions</a></li>
+                    <li><a href="">Referral Terms and Conditions</a></li>
+                </ol>
+                </p>
+            </div>
+        
+            <button class="outer">
+                <h4>NEED HELP ?</h4>
+            </button>
+            <div class="inner">
+                <p>
+                <ol>
+                    <button style="margin-top: 20px;">Chat with us (9AM - 6PM</button>
+                    <P style="margin-top: 20px;">jo@rentomojo.com</P>
+                    <p style="margin-top: 20px;">Download App</p>
+        
+                    <div style="margin-top: 20px;">
+        
+                        <img src="https://i.ibb.co/q9vV8nb/Whats-App-Image-2022-08-23-at-11-44-54-PM.jpg" alt="">
+                        <img src="https://i.ibb.co/fxYZtyr/Whats-App-Image-2022-08-23-at-11-44-54-PM-1.jpg" alt="">
+                    </div>
+        
+                </ol>
+        
+        
+                </p>
+            </div>
+        
+        
+            </div>
+
+        <!-- <hr> -->
+
+
+        <div id="bottom_footer">
+
+
+
+            <div>
+                <p>&#169 2022. Edunetwork Pvt.Ltd</p>
+            </div>
+
+
+            <div class="B">
+
+                <a href="#"><img
+                    src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/FB-128.png" alt=""></a>
+                <a href="#"><img
+                        src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/TWITTER-128.png" alt=""></a>
+                <a href="#"><img
+                        src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/LINKEDIN-128.png" alt=""></a>
+               <a href="#"> <img
+                        src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/YOUTUBE-128.png" alt=""></a>
+                <a href="#"> <img
+                        src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/INSTAGRAM-128.png" alt=""></a>
+                <a href="#"> <img
+                        src="https://cdn2.iconfinder.com/data/icons/social-icons-grey/512/bing-128.png" alt=""></a>
+            </div>
+
+
+            <div style="margin-left:155px">
+
+                <p>Go to Up</p>
+
+            </div>
+        </div>
+</body>
+<script src="/admin_view_product.js"></script>
+</html>
