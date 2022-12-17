@@ -7,10 +7,14 @@
   padding: 10px 5%;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+   
 }
 
 #navbar > div:nth-child(1) {
   display: none;
+  /* border: 1px solid; */
+  color: #444;
+  
 }
 
 #navbar > div:nth-child(2) {
@@ -22,6 +26,7 @@
   align-items: center;
   max-width: 20px;
   cursor: pointer;
+  
 }
 
 #location > img {
@@ -90,6 +95,7 @@
   top: 0px;
   display: none;
   z-index: 2;
+  
 }
 
 #menu > div:nth-child(1) {
@@ -133,7 +139,7 @@
   cursor: pointer;
 }
 
-#check{
+#check_map{
   padding: 12px;
   width: 100%;
   font-size: large;
@@ -141,7 +147,7 @@
   color: rgb(84, 84, 84);
 }
 
-#check:hover{
+#check_map:hover{
   background-color: white;
 }
 
@@ -991,3 +997,5 @@ h2 {
     width: 30%;
   }
 }
+
+
