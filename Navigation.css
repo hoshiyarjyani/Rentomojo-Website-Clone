@@ -1,6 +1,7 @@
-body {
+#container {
     background: url("map-g5781074ff_1280.png");
-    border: white;
+    color: white;
+    height: 800px;
 }
 
 #sim_model {
@@ -8,6 +9,7 @@ body {
     position: fixed;
     z-index: 1;
     left: 0;
+    top: 0;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -17,7 +19,7 @@ body {
 .content {
 
     background: transparent;
-    height: 70%;
+    height: 90%;
     width: 100%;
     margin: 1%;
     padding: 20px;
@@ -29,7 +31,6 @@ body {
     height: 100%;
     width: 100%;
     padding: 20px;
-
 }
 
 .close {
@@ -51,12 +52,17 @@ iframe {
     width: 90%;
 }
 
+#check {
+    padding: 10px;
+}
+
 
 #city_map {
     display: none;
     position: fixed;
     z-index: 1;
     left: 0;
+    top: 0;
     height: 100%;
     width: 100%;
     overflow: auto;
@@ -86,7 +92,8 @@ button {
 
     background-color: #dc3226;
     color: white;
-    border: none;
+    border: 1px solid;
+    border-radius: 10px;
     padding: 10px;
     font-size: large;
     cursor: pointer;
@@ -104,15 +111,21 @@ button {
 
 h2 {
     margin-top: -10px;
+
+    color: rgb(83, 77, 77);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight:700;
+    font-weight: 50;
     width: 35%;
-    font-size: 20px;
     padding: 10px;
-    background-color: white;
-    color: #dc3226;
-/* border: 1px solid #dc3226; */
-margin-top: 0.3rem;
+    background-color: rgb(238, 243, 247);
+    color: rgb(119, 116, 116);
+
+}
+
+#home:hover {
+    background-color: #dc3226;
+    color: white;
+
 }
 
 #top {
@@ -122,32 +135,32 @@ margin-top: 0.3rem;
 }
 
 #home {
-    background-color: #dc3226;
-    color: white;
-    padding-right: 50px;
-    padding-left: 50px;
-    font-size: 25px;
-    font-weight: 700;
-    border-radius: 3px;
-    border: 1px solid #dc3226;
-}
-#home:hover {
-    background-color: white;
-    border: 1pxsolid #dc3226;
-    color: #dc3226;
-    padding-right: 50px;
+    background-color: rgb(238, 243, 247);
+    color: rgb(119, 116, 116);
+    padding-right: 100px;
     padding-left: 50px;
     font-size: large;
 }
 
-#check {
-    padding: 10px;
+#entire {
     color: white;
-    background-color: #dc3226;
-    border: 2px;
 }
-#check:hover{
+
+#check {
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #dc3226;
+}
+
+#check:hover,
+#city:hover {
     background-color: white;
-    border: 1px solid #dc3226;
+    border-radius: 10px;
     color: #dc3226;
 }
+
+
+
+
+
+
