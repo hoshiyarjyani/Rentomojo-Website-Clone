@@ -1,110 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        * {
-            margin: 0%;
-            padding: 0%;
-        }
+      * {
+        margin: 0%;
+        padding: 0%;
+      }
 
-        form>input {
-            margin-top: 20px;
-            height: 30px;
-            width: 400px;
-            border-radius: 8px;
-        }
+      form > input {
+        margin-top: 20px;
+        height: 30px;
+        width: 400px;
+        border-radius: 8px;
+      }
 
+      #navbar {
+        display: none;
+      }
 
+      .mainhead {
+        text-align: center;
+        margin-top: 10%;
+        margin-bottom: 2%;
+        color: #dc3226;
+        font-weight: 800;
+      }
 
-        #navbar {
-            display: none;
-        }
+      button {
+        margin-top: 2rem;
+        align-items: center;
+        width: 100px;
+        height: 30px;
+        border-radius: 3px;
+        border: 1px solid #dc3226;
+        color: white;
+        background-color: #dc3226;
+      }
+      button:hover {
+        color: #dc3226;
+        background-color: white;
+      }
 
-        .mainhead {
-            text-align: center;
-           margin-top: 2%;margin-bottom: 4%;
-        }
+      .s1 {
+        /* margin-left: 30%; */
+        width: 200px;
+        height: 30px;
+        border-radius: 3px;
+        margin-right: 3px;
+      }
 
-        button {
-            margin-top: 2%;
-            align-items: center;
-            width: 100px;
-            height: 30px;
-            border-radius: 8px;
-        }
+      input {
+        padding-left: 1%;
+        margin-left: 12%;
+      }
 
-        .s1 {
-            /* margin-left: 30%; */
-            width: 300px;
-            height: 30px;
-            border-radius: 15px;
-        }
-
-        input {
-            padding-left: 1%;
-            margin-left: 12%;
-        }
-
-        .sha {
-            box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-            width: 31%;
-            margin: auto;
-            height: 300px;
-            padding: 2%;
-            border-radius: 15px;margin-top: 7%;
-        }
+      .sha {
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        width: 31%;
+        margin: auto;
+        height: 300px;
+        padding: 1%;
+        border-radius: 15px;
+        margin-top: 7%;
+      }
     </style>
-    <link rel="stylesheet" href="/admin.css">
-</head>
+    <link rel="stylesheet" href="/admin.css" />
+  </head>
 
-<body>
+  <body>
     <div id="navbar">
-        <div><img src="https://www.rentomojo.com/public/images/Home/new/ham__icon.svg" id="dropdown_menu_open"
-                alt=""><img src="https://www.rentomojo.com/public/images/Home/new/logo.svg" alt=""></div>
-        <div onclick="goToHome()"><img src="rentomarket (3).png" alt=""></div>
-        <div>
-            <div id="location">
-                <!-- <p id="change_location"><b>WELCOME TO THE ADMIN PAGE</b></p> -->
-            </div>
+      <div>
+        <img
+          src="https://www.rentomojo.com/public/images/Home/new/ham__icon.svg"
+          id="dropdown_menu_open"
+          alt=""
+        /><img
+          src="https://www.rentomojo.com/public/images/Home/new/logo.svg"
+          alt=""
+        />
+      </div>
+      <div onclick="goToHome()"><img src="rentomarket (3).png" alt="" /></div>
+      <div>
+        <div id="location">
+          <!-- <p id="change_location"><b>WELCOME TO THE ADMIN PAGE</b></p> -->
         </div>
+      </div>
     </div>
-
 
     <div class="maincon">
-        <div class="sha">
-            <h3 class="mainhead">Please Enter OTP</h3>
-            <div class="lhs">
+      <div class="sha">
+        <h3 class="mainhead">Please Enter OTP</h3>
+        <div class="lhs">
+          <input type="number" placeholder=". OTP" class="s1" />
 
-
-                <input type="number" placeholder=". OTP" class="s1">
-
-
-                <button id="cvvbtn">submit</button>
-
-
-            </div>
+          <button id="cvvbtn">submit</button>
         </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
 <script>
-    document.querySelector("#cvvbtn").addEventListener("click", (() => {
-        data_q = document.querySelector(".lhs>input").value;
-        if (data_q === "12345") {
-            alert("Your product is ordered Sucessfully" + "\n" + "order id=uid345hern1234j");
-            // alert("Your order is confirmed!!");
-            localStorage.setItem("cartpage", null);
-            window.location.href = "/index.html";
-        } else {
-            alert("Please enter correct Otp");
-        }
-    }))
-
-
+  document.querySelector("#cvvbtn").addEventListener("click", () => {
+    data_q = document.querySelector(".lhs>input").value;
+    if (data_q === "12345") {
+      alert(
+        "Your product is ordered Sucessfully" +
+          "\n" +
+          "order id=uid345hern1234j"
+      );
+      // alert("Your order is confirmed!!");
+      localStorage.setItem("cartpage", null);
+      window.location.href = "/index.html";
+    } else {
+      alert("Please enter correct Otp");
+    }
+  });
 </script>
