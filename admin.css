@@ -39,7 +39,8 @@
     border-radius: 10px;
   }
   #login_details>div:nth-child(2)>button:hover{
-    background-color: blue;
+    background-color: white;
+    color: #DC3226;
   }
   #footer {
     display: flex;
@@ -293,15 +294,17 @@
     font-size: 18px;
     background-color: #DC3226;
     color: white;
-    border: none;
+    border: 1px solid #DC3226;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
   }
   #admin-form>h2{
     color: #DC3226;
   }
   #admin-form>form>button:hover{
-    background-color: blue;
+    background-color:white;
+    color:#DC3226;
+    border: 1px solid #DC3226;
   }
   #seedata{
     padding: 10px;
@@ -309,11 +312,13 @@
     font-size: 18px;
     background-color: #DC3226;
     color: white;
-    border: none;
+    border: 1px solid #DC3226;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 3px;
   }
   #seedata:hover{
-    background-color: blue;
+    background-color:white;
+    color:#DC3226;
+    border: 1px solid #DC3226;
   }
   
