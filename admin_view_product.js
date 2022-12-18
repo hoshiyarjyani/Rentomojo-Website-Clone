@@ -121,13 +121,30 @@
 
         let btn = document.createElement("button");
         btn.innerText = "Remove";
+        btn.setAttribute("id","RemoveButton");
 
         new_div.append(image,title,price,rent,features,btn);
         box.append(new_div);
     })
-    }
+};
 
 DisplayCard(adminarr,card);
+
+function DeleteCard(pid){
+  let card = JSON.parse(localStorage.getItem("add_data"));
+  let newcard = card.filter((item)=> item.title != pid);
+
+  localStorage.setItem("add_data",JSON.stringify(newcard));
+}
+
+document.querySelector("#RemoveButton").addEventListener("click",function(){
+    alert("Product Is Removed From Website");
+    for(let i=0;i<adminarr.length;i++){
+        DisplayCard(DeleteCard(adminarr[i].title));
+    }
+    window.location.href = "./admin_view_product.html";
+})
+
 
 
 
