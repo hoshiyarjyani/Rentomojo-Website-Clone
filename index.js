@@ -119,7 +119,7 @@
         slides[slideI - 1].style.display = "block";
 
     }
-    //   div4  end 
+    //   div  end 
     let dropdown_menu_open = document.getElementById("dropdown_menu_open");
     dropdown_menu_open.addEventListener("click", function () {
         let menu = document.getElementById("menu");
