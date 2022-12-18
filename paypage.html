@@ -16,7 +16,7 @@
             margin-top: 20px;
             height: 30px;
             width: 400px;
-            border-radius: 8px;
+            border-radius: 4px;
         }
 
         .maincon {
@@ -24,9 +24,12 @@
             display: flex;
             align-items: center;
             justify-content: space-evenly;
-            height: 750px;
+
             width: 80%;
-            margin: auto;padding-bottom: 3%;border-radius: 15px;
+            margin: auto;
+            padding-bottom: 7%;
+            border-radius: 5px;
+            /* background-color: aqua; */
 
             height: 400px;
         }
@@ -39,8 +42,18 @@
 
         .sub {
             align-items: center;
-            border-radius: 8px;
-            margin-top: 35%;
+            border-radius: 4px;
+            margin-top: 18%;
+            background-color: red;
+            color: white;
+        }
+
+        .sub:hover {
+            background-color: white;
+            text-decoration: underline;
+            cursor: pointer;
+            color: red;
+            font-size: larger;border: 0px solid rd;
         }
 
         input {
@@ -61,6 +74,24 @@
 
         #navbar {
             display: none;
+        }
+
+        .add {
+            font-size: large;
+            align-items: center;
+            text-align: center;
+            padding-left: 28%;
+            text-decoration: underline;
+        }
+
+        .pay {
+            padding-left: 30%;
+            text-decoration: underline;font-size: larger;
+        }
+
+        .rhs {
+            width: 40%;
+            margin-top: 1%;
         }
     </style>
     <link rel="stylesheet" href="/admin.css">
@@ -85,6 +116,7 @@
         <div class="lhs">
 
             <form action="">
+                <label for="" class="add">Address Details</label>
                 <input type="text" placeholder="Name" class="s1"><br>
 
                 <input type="number" placeholder="Phone No." class="s2"><br><input type="text"
@@ -96,12 +128,17 @@
 
             </form>
         </div>
-        <div class="#rhs">
+        <div class="rhs">
             <form action="" id="rhsform">
+                <br><br><br>
+                <label for="" class="pay">Payment Details</label>
                 <input type="text" placeholder="Name of Account Holder" class="s7"><br>
 
                 <input type="number" placeholder="Card No." class="s8"><br><input type="number" placeholder="Cvv"
-                    class="s9"><br>
+                    minlength="3" maxlength="3" min="111" max="999" class="s9"><br>
+                <input type="number" min="1" max="12" placeholder="Exp Month" class="s10">
+                <input type="number" placeholder="Exp Year" min="1995" class="s11">
+
                 <input type="submit" class="sub" id="subbtn">
 
             </form>
@@ -112,13 +149,14 @@
 </html>
 <script>
     data_item = JSON.parse(localStorage.getItem("cartpage"));
+    console.log(data_item);
     let sum = 0;
     data_item.map((item) => {
         console.log(item.price);
         sum = sum + Number(item.price);
     });
 
-    document.querySelector("#total").innerText = "Your Cart Total is " + sum;
+    document.querySelector("#total").innerText = "Your Cart Total is " + (sum || 0) + " " + "Rs";
 
 
     document.querySelector("#rhsform").addEventListener("submit", ((event) => {
@@ -133,6 +171,9 @@
         let data7 = document.querySelector(".s7")
         let data8 = document.querySelector(".s8")
         let data9 = document.querySelector(".s9")
+        let data10 = document.querySelector(".s10")
+        let data11 = document.querySelector(".s11")
+
         data9.value.length = 3;
 
         if (data1.value === "") {
@@ -163,7 +204,16 @@
         }
         else if (data9.value.length < 3 || data9.value.length > 3) {
             alert("Please enter correct Cvv")
-        } else {
+        }
+        else if (data10.value < 1 && data10.value > 12) {
+            alert("Please Check Exp Month")
+        } else if (data11.value == "") {
+            alert("Please Enter Exp year")
+        }
+        else if (data11.value < 2022) {
+            alert("Your Card is Expired")
+        }
+        else {
             console.log("S");
             window.location.href = "cvv.html"
         }
