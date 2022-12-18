@@ -311,6 +311,21 @@
   width: 100%;
 }
 
+
+#admin_btn{
+  display: block;
+margin-left: 10px;
+ align-items: center;
+ padding: 3px;
+ padding-left: 20px;
+ padding-right: 20px;
+ margin-bottom: -53px;
+}
+
+#admin_page{
+  text-decoration: none;
+}
+
 #login_popup > div:nth-child(1) {
   width: 45%;
   margin-left: 40px;
@@ -319,6 +334,7 @@
 
 #login_popup > div:nth-child(1) > img {
   width: 90%;
+  height: 90%;
 }
 
 #login_popup > div:nth-child(2) {

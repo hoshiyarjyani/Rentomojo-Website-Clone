@@ -100,8 +100,11 @@
     console.log(adminarr);
 
     let card = document.querySelector("#cardcontainer");
-    function DisplayCard(data,box){
+    function DisplayCard(data){
+        card.innerHTML=null
+
     data.filter((elem)=>{
+        
         let new_div = document.createElement("div");
 
         let image = document.createElement("img");
@@ -123,27 +126,42 @@
         btn.innerText = "Remove";
         btn.setAttribute("id","RemoveButton");
 
+        btn.addEventListener("click",function(){
+            deldata(data,elem)
+           })
+
         new_div.append(image,title,price,rent,features,btn);
-        box.append(new_div);
+        card.append(new_div);
     })
 };
 
-DisplayCard(adminarr,card);
 
-function DeleteCard(pid){
-  let card = JSON.parse(localStorage.getItem("add_data"));
-  let newcard = card.filter((item)=> item.title != pid);
+function deldata(data,index){
+    alert("product has been removed")
+    data.splice(index,1)
+    localStorage.setItem("add_data",JSON.stringify(data))
+    DisplayCard(adminarr);
+    
+  }
 
-  localStorage.setItem("add_data",JSON.stringify(newcard));
-}
+DisplayCard(adminarr);
 
-document.querySelector("#RemoveButton").addEventListener("click",function(){
-    alert("Product Is Removed From Website");
-    for(let i=0;i<adminarr.length;i++){
-        DisplayCard(DeleteCard(adminarr[i].title));
-    }
-    window.location.href = "./admin_view_product.html";
-})
+// DisplayCard(adminarr);
+
+// function DeleteCard(pid){
+//   let card = JSON.parse(localStorage.getItem("add_data"));
+//   let newcard = card.filter((item)=> item.title != pid);
+
+//   localStorage.setItem("add_data",JSON.stringify(newcard));
+// }
+
+// document.querySelector("#RemoveButton").addEventListener("click",function(){
+//     alert("Product Is Removed From Website");
+//     for(let i=0;i<adminarr.length;i++){
+//         DisplayCard(DeleteCard(adminarr[i].title));
+//     }
+//     window.location.href = "./admin_view_product.html";
+// })
 
 
 
