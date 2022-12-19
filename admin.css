@@ -1,324 +1,338 @@
 #navbar {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 90%;
-    margin: 0px auto 40px auto;
-    padding: 10px 5%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-      rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-  }
-  
-  #navbar > div:nth-child(1) {
-    display: none;
-  }
-  
-  #navbar > div:nth-child(2) {
-    cursor: pointer;
-  }
-  #login_details_div{
-    text-align: center;
-    color: #DC3226;
-  }
-  #login_details > div:nth-child(2){
-    text-align: center;
-  }
-  #login_details > div:nth-child(2) > input{
-    padding: 15px;
-    margin-top: 20px;
-    width: 300px;
-  }
-  #login_details > div:nth-child(2) > button{
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    background-color: #DC3226;
-    color: white;
-    border: none;
-    margin-top: 20px;
-    border-radius: 10px;
-  }
-  #login_details>div:nth-child(2)>button:hover{
-    background-color: white;
-    color: #DC3226;
-  }
-  #footer {
-    display: flex;
-    font-family: "Muli";
-    gap: 100px;
-    justify-content: space-between;
-  }
-  
-  #footer li {
-    width: 100%;
-    list-style: none;
-    margin: 25px;
-  }
-  
-  #footer a {
-    text-decoration: none;
-    color: black;
-  }
-  
-  #footer a:hover {
-    color: black;
-    text-decoration: underline;
-  }
-  
-  #bottom_footer {
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 0px;
-  }
-  
-  .B {
-    /* display: grid;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto 40px auto;
+  padding: 10px 5%;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+#navbar > div:nth-child(1) {
+  display: none;
+}
+
+#navbar > div:nth-child(2) {
+  cursor: pointer;
+}
+#login_details_div {
+  text-align: center;
+  color: #dc3226;
+}
+#login_details > div:nth-child(2) {
+  text-align: center;
+}
+#login_details > div:nth-child(2) > input {
+  padding: 15px;
+  margin-top: 20px;
+  width: 300px;
+}
+#login_details > div:nth-child(2) > button {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #dc3226;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+#login_details > div:nth-child(2) > button:hover {
+  background-color: white;
+  color: #dc3226;
+}
+#footer {
+  display: flex;
+  font-family: "Muli";
+  gap: 100px;
+  justify-content: space-between;
+}
+
+#footer li {
+  width: 100%;
+  list-style: none;
+  margin: 25px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+#bottom_footer {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0px;
+}
+
+.B {
+  /* display: grid;
               grid-template-columns: repeat(6, 1fr); */
-    display: flex;
-    /* gap:-50px; */
-    /* border: 5px solid red; */
+  display: flex;
+  /* gap:-50px; */
+  /* border: 5px solid red; */
+}
+
+.B img {
+  width: 40%;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+#bd {
+  width: 100;
+}
+
+#footer ol > div {
+  display: flex;
+  gap: 20px;
+}
+
+#footer ol > div img {
+  width: 30%;
+}
+
+#footer > div:nth-child(4) {
+  margin-top: 25px;
+}
+
+#footer ol button {
+  background-color: transparent;
+  font-size: 20px;
+  padding: 20px 15px;
+}
+
+#cb {
+  margin-top: 70px;
+  background-color: #f5f7fa;
+  width: 133%;
+  margin-left: -180px;
+  padding: 70px 0px;
+}
+
+#footer {
+  width: 80%;
+  margin: auto;
+  background-color: #f5f7fa;
+  /* border: 5px solid black; */
+}
+
+#cb .p {
+  width: 80%;
+  margin: auto;
+  background-color: #f5f7fa;
+  /* border: 5px solid black; */
+}
+
+#med {
+  display: none;
+}
+@media all and (min-width: 480px) and (max-width: 720px) {
+  #med {
+    display: block;
   }
-  
-  .B img {
-    width: 40%;
-    border: 1px solid gray;
-    border-radius: 50%;
-    padding: 5px;
+  /* Style the buttons that are used to open and close the outer inner */
+
+  #med .outer {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 2px;
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
   }
-  
-  #bd {
-    width: 100;
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  #med .active,
+  .outer:hover {
+    background-color: #ccc;
   }
-  
-  #footer ol > div {
-    display: flex;
-    gap: 20px;
+
+  /* Style the outer inner. Note: hidden by default */
+  #med .inner {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
   }
-  
-  #footer ol > div img {
-    width: 30%;
-  }
-  
-  #footer > div:nth-child(4) {
-    margin-top: 25px;
-  }
-  
-  #footer ol button {
+
+  #med ol button {
     background-color: transparent;
     font-size: 20px;
     padding: 20px 15px;
   }
-  
-  #cb {
-    margin-top: 70px;
-    background-color: #f5f7fa;
-    width: 133%;
-    margin-left: -180px;
-    padding: 70px 0px;
-  }
-  
-  #footer {
-    width: 80%;
-    margin: auto;
-    background-color: #f5f7fa;
-    /* border: 5px solid black; */
-  }
-  
-  #cb .p {
-    width: 80%;
-    margin: auto;
-    background-color: #f5f7fa;
-    /* border: 5px solid black; */
-  }
-  
-  #med {
-    display: none;
-  }
-  @media all and (min-width: 480px) and (max-width: 720px) {
-    #med {
-      display: block;
-    }
-    /* Style the buttons that are used to open and close the outer inner */
-  
-    #med .outer {
-      background-color: #eee;
-      color: #444;
-      cursor: pointer;
-      padding: 2px;
-      padding-left: 10px;
-      width: 100%;
-      text-align: left;
-      border: none;
-      outline: none;
-      transition: 0.4s;
-    }
-  
-    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-    #med .active,
-    .outer:hover {
-      background-color: #ccc;
-    }
-  
-    /* Style the outer inner. Note: hidden by default */
-    #med .inner {
-      padding: 0 18px;
-      background-color: white;
-      display: none;
-      overflow: hidden;
-    }
-  
-    #med ol button {
-      background-color: transparent;
-      font-size: 20px;
-      padding: 20px 15px;
-    }
-  
-    #med li {
-      width: 100%;
-      list-style: none;
-      margin: 25px;
-      /* border: 10px solid red; */
-    }
-  
-    #med a {
-      text-decoration: none;
-      color: black;
-    }
-  
-    #med a:hover {
-      color: black;
-      text-decoration: underline;
-    }
-  
-    #med ol > div img {
-      width: 25%;
-    }
-  }
-  
-  @media all and (min-width: 320px) and (max-width: 480px) {
-    #med {
-      display: block;
-    }
-  
-    /* Style the buttons that are used to open and close the outer inner */
-    #med .outer {
-      display: block;
-      background-color: #eee;
-      color: #444;
-      cursor: pointer;
-      padding: 2px;
-      padding-left: 10px;
-      width: 100%;
-      text-align: left;
-      border: none;
-      outline: none;
-      transition: 0.4s;
-    }
-  
-    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-    #med .active,
-    .outer:hover {
-      background-color: #ccc;
-    }
-  
-    /* Style the outer inner. Note: hidden by default */
-    #med .inner {
-      padding: 0 18px;
-      background-color: white;
-      display: none;
-      overflow: hidden;
-    }
-  
-    #med ol button {
-      background-color: transparent;
-      font-size: 20px;
-      padding: 20px 15px;
-    }
-  
-    #med li {
-      width: 100%;
-      list-style: none;
-      margin: 25px;
-      /* border: 10px solid red; */
-    }
-  
-    #med a {
-      text-decoration: none;
-      color: black;
-    }
-  
-    #med a:hover {
-      color: black;
-      text-decoration: underline;
-    }
-  
-    #med ol > div img {
-      width: 30%;
-    }
+
+  #med li {
+    width: 100%;
+    list-style: none;
+    margin: 25px;
+    /* border: 10px solid red; */
   }
 
-  #Data-container{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: auto;
-    gap: 20px;
-    text-align: center;
+  #med a {
+    text-decoration: none;
+    color: black;
   }
-  #Data-container>div>img{
-   width: 100%;
+
+  #med a:hover {
+    color: black;
+    text-decoration: underline;
   }
-  #Data-container>div>button{
-    padding: 8px;
+
+  #med ol > div img {
+    width: 25%;
+  }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+  #med {
+    display: block;
+  }
+
+  /* Style the buttons that are used to open and close the outer inner */
+  #med .outer {
+    display: block;
+    background-color: #eee;
+    color: #444;
     cursor: pointer;
-    font-size: 18px;
-    background-color: #DC3226;
-    color: white;
+    padding: 2px;
+    padding-left: 10px;
+    width: 100%;
+    text-align: left;
     border: none;
-    margin-top: 20px;
+    outline: none;
+    transition: 0.4s;
   }
-  #admin-form{
-    text-align: center;
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  #med .active,
+  .outer:hover {
+    background-color: #ccc;
   }
-  #admin-form>form>input{
-    padding: 15px;
-    margin-top: 20px;
-    width: 500px;
+
+  /* Style the outer inner. Note: hidden by default */
+  #med .inner {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
   }
-  #admin-form>form>button{
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    background-color: #DC3226;
-    color: white;
-    border: 1px solid #DC3226;
-    margin-top: 20px;
-    border-radius: 3px;
+
+  #med ol button {
+    background-color: transparent;
+    font-size: 20px;
+    padding: 20px 15px;
   }
-  #admin-form>h2{
-    color: #DC3226;
+
+  #med li {
+    width: 100%;
+    list-style: none;
+    margin: 25px;
+    /* border: 10px solid red; */
   }
-  #admin-form>form>button:hover{
-    background-color:white;
-    color:#DC3226;
-    border: 1px solid #DC3226;
+
+  #med a {
+    text-decoration: none;
+    color: black;
   }
-  #seedata{
-    padding: 10px;
-    cursor: pointer;
-    font-size: 18px;
-    background-color: #DC3226;
-    color: white;
-    border: 1px solid #DC3226;
-    margin-top: 20px;
-    border-radius: 3px;
+
+  #med a:hover {
+    color: black;
+    text-decoration: underline;
   }
-  #seedata:hover{
-    background-color:white;
-    color:#DC3226;
-    border: 1px solid #DC3226;
+
+  #med ol > div img {
+    width: 30%;
   }
-  
+}
+
+#Data-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 20px;
+  text-align: center;
+}
+#Data-container > div > img {
+  width: 100%;
+}
+#Data-container > div > button {
+  padding: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #dc3226;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+#admin-form {
+  text-align: center;
+}
+#admin-form > form > input {
+  padding: 15px;
+  margin-top: 20px;
+  width: 500px;
+}
+#admin-form > form > button {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #dc3226;
+  color: white;
+  border: 1px solid #dc3226;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+#admin-form > h2 {
+  color: #dc3226;
+}
+#admin-form > form > button:hover {
+  background-color: white;
+  color: #dc3226;
+  border: 1px solid #dc3226;
+}
+#seedata {
+  padding: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #dc3226;
+  color: white;
+  border: 1px solid #dc3226;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+#seedata:hover {
+  background-color: white;
+  color: #dc3226;
+  border: 1px solid #dc3226;
+}
+#login_details #login_data_submit_button {
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  background-color: #dc3226;
+  color: white;
+  border: 1px solid #dc3226;
+  margin-top: 20px;
+  border-radius: 3px;
+}
+#login_details #login_data_submit_button:hover {
+  background-color: white;
+  color: #dc3226;
+  border: 1px solid #dc3226;
+}
