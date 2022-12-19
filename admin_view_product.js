@@ -122,6 +122,15 @@
         let features = document.createElement("p");
         features.innerHTML = `<b>Brand New Condition(Scratchless)</b>`;
 
+        let brand_id = document.createElement("p")
+        brand_id.innerHTML = `<b>Brand-id ${elem.brand_id}</b>`
+
+
+
+        let btn_edit = document.createElement("button");
+        btn_edit.innerText = "Edit";
+        btn_edit.setAttribute("id", "edit_btn")
+
         let btn = document.createElement("button");
         btn.innerText = "Remove";
         btn.setAttribute("id","RemoveButton");
@@ -130,7 +139,23 @@
             deldata(data,elem)
            })
 
-        new_div.append(image,title,price,rent,features,btn);
+           btn_edit.addEventListener("click", function () {
+
+            btn_edit.innerText = ""
+            let anchor = document.createElement("a")
+            anchor.setAttribute("id", "acnchor_update")
+            let textNode = document.createTextNode("Want Update?")
+            anchor.appendChild(textNode)
+            anchor.href = "update.html";
+            btn_edit.appendChild(anchor);
+
+            let y = JSON.parse(localStorage.getItem("new"))
+            console.log(y)
+
+            // document.button1.appendChild(anchor);
+        })
+
+        new_div.append(image,title,price,rent,features,brand_id,btn,btn_edit);
         card.append(new_div);
     })
 };
