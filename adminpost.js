@@ -1,4 +1,5 @@
 let name = JSON.parse(sessionStorage.getItem("key-name"));
+name=name.toUpperCase()
 let display = document.getElementById("location");
 display.innerHTML = `<b>WELCOME ${name}</b>`;
 
@@ -10,8 +11,9 @@ document.querySelector("#publishdata").addEventListener("click",function(){
   let price = document.querySelector("#productprice").value;
   let rent = document.querySelector("#producrent").value;
   let features = document.querySelector("#productfeatures").value;
+  let brand_id = document.querySelector("#brand").value;
 
-  let admin_object = {"image":img,"title":title,"price":price,"rent":rent,"product-features":features};
+  let admin_object = {"image":img,"title":title,"price":price,"rent":rent,"product-features":features,"brand_id":brand_id};
 
   adminarr.push(admin_object);
 

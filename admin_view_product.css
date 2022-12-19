@@ -958,7 +958,20 @@
     border-radius: 10px;
   }
   #cardcontainer>div>button:hover{
-    background-color: blue;
+    color: #dc3226;
+    background-color:white ;
+    border: 1px solid;
   }
   
-  
+  #RemoveButton{
+    margin-right: 10px; 
+ }
+ #acnchor_update{
+   text-decoration: none;
+   color: white;
+   
+ }
+ #acnchor_update:hover{
+color:#dc3226 ;
+ }
+ 
