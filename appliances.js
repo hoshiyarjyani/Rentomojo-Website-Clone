@@ -244,9 +244,21 @@ async function dataFetch() {
   // search function
   function nav_search_fn() {
     let se = document.getElementById("nav_search").value;
-    if (se == "bed") {
+    if (
+      se == "bed" ||
+      se == "chair" ||
+      se == "sofa" ||
+      se == "baby" ||
+      se == "kitchen" ||
+      se == "living"
+    ) {
       window.location.href = "furniture.html";
-    } else if (se == "refrigerator") {
+    } else if (
+      se == "refrigerator" ||
+      se == "tv" ||
+      se == "ac" ||
+      se == "air"
+    ) {
       window.location.href = "appliances.html";
     }
   }

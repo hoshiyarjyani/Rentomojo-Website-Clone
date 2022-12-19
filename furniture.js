@@ -146,9 +146,7 @@ function nav_search_fn() {
     se == "refrigerator" ||
     se == "tv" ||
     se == "ac" ||
-    se == "refrigerator" ||
-    se == "air" ||
-    se == "refrigerator"
+    se == "air"
   ) {
     window.location.href = "appliances.html";
   }
