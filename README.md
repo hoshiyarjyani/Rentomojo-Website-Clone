@@ -1,14 +1,14 @@
 # Rentomojo Clone
 <hr>
-This project is a clone of the e-commerce website Rentomojo. It allows users to rent products from various categories, search for products, make purchases, view detailed product pages, locate stores on a map, and sign in or sign up. The website was developed using HTML, CSS, and JavaScript, with product data stored in JSON format. 
+This project is a clone of the e-commerce website Rentomojo. It allows users to rent products from various categories, search for products, make purchases, view detailed product pages, locate stores on a map, and sign in or sign up. The website was developed using HTML, CSS, and JavaScript, with product data stored in JSON format. <br>
 <hr>
-##Video Presentation 
+##Video Presentation <br>
 
-#English- https://youtu.be/s4nasX_8NPs
+#English- https://youtu.be/s4nasX_8NPs <br>
 #Hindi- https://youtu.be/l5Ld1rneoCI
 
 <hr>
-## Features
+## Features<br>
 - Browse and rent products from different categories
 - Search for specific products
 - View detailed product pages with descriptions and images
@@ -17,7 +17,7 @@ This project is a clone of the e-commerce website Rentomojo. It allows users to 
 - Admin panel for managing products
 - Developed in just 5 days by a team of 4 members, led by Hoshiyar Singh
 <hr>
-## Screenshots
+## Screenshots<br>
 
  ![Screenshot 2023-06-16 154008](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/74f4ba20-8aec-458f-90bf-3bf416b22956)
 ![Screenshot 2023-06-16 154644](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/d768b370-da4d-4959-a051-6a6e5e4d5958)
@@ -34,14 +34,14 @@ This project is a clone of the e-commerce website Rentomojo. It allows users to 
 ![Screenshot 2023-06-16 154658](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/55521425-78cf-4279-bed3-bd4a8414242b)
 
 <hr>
-## Getting Started
+## Getting Started<br>
 To run the project locally, follow these steps:
 1. Clone the repository.
 2. Open the project in your preferred code editor.
 3. Launch the index.html file in a web browser.
 4. Start exploring the Rentomojo clone!
 <hr>
-## Team Members
+## Team Members<br>
 - Hoshiyar Singh (Team Leader)
 - Shalu Gupta
 - Sharvan
@@ -54,7 +54,7 @@ To run the project locally, follow these steps:
 <hr>
 ## Acknowledgements
 We would like to express our gratitude to the Rentomojo team for inspiring this project. Special thanks to the team members for their dedicated efforts in completing the project within the given timeline.
-<hr>
+<hr><br>
 https://www.linkedin.com/in/hoshiyarjyani/
 
 <hr>
