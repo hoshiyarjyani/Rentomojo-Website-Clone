@@ -2,13 +2,13 @@
 <hr>
 This project is a clone of the e-commerce website Rentomojo. It allows users to rent products from various categories, search for products, make purchases, view detailed product pages, locate stores on a map, and sign in or sign up. The website was developed using HTML, CSS, and JavaScript, with product data stored in JSON format. <br>
 <hr>
-##Video Presentation <br>
+ Video Presentation <br>
 
-#English- https://youtu.be/s4nasX_8NPs <br>
-#Hindi- https://youtu.be/l5Ld1rneoCI
+English- https://youtu.be/s4nasX_8NPs <br>
+Hindi- https://youtu.be/l5Ld1rneoCI
 
 <hr>
-## Features<br>
+## Features <br>
 - Browse and rent products from different categories
 - Search for specific products
 - View detailed product pages with descriptions and images
@@ -41,7 +41,7 @@ To run the project locally, follow these steps:
 3. Launch the index.html file in a web browser.
 4. Start exploring the Rentomojo clone!
 <hr>
-## Team Members<br>
+## Team Members <br>
 - Hoshiyar Singh (Team Leader)
 - Shalu Gupta
 - Sharvan
