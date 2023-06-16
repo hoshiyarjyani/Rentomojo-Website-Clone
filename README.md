@@ -1,7 +1,13 @@
 # Rentomojo Clone
-
+<hr>
 This project is a clone of the e-commerce website Rentomojo. It allows users to rent products from various categories, search for products, make purchases, view detailed product pages, locate stores on a map, and sign in or sign up. The website was developed using HTML, CSS, and JavaScript, with product data stored in JSON format. 
+<hr>
+##Video Presentation 
 
+#English- https://youtu.be/s4nasX_8NPs
+#Hindi- https://youtu.be/l5Ld1rneoCI
+
+<hr>
 ## Features
 - Browse and rent products from different categories
 - Search for specific products
@@ -10,7 +16,7 @@ This project is a clone of the e-commerce website Rentomojo. It allows users to 
 - User authentication with sign in and sign up functionality
 - Admin panel for managing products
 - Developed in just 5 days by a team of 4 members, led by Hoshiyar Singh
-
+<hr>
 ## Screenshots
 
  ![Screenshot 2023-06-16 154008](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/74f4ba20-8aec-458f-90bf-3bf416b22956)
@@ -27,26 +33,29 @@ This project is a clone of the e-commerce website Rentomojo. It allows users to 
 ![Screenshot 2023-06-16 154624](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/488157a3-8fa9-4b64-be0c-d1795fd053ba)
 ![Screenshot 2023-06-16 154658](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/55521425-78cf-4279-bed3-bd4a8414242b)
 
-
+<hr>
 ## Getting Started
 To run the project locally, follow these steps:
 1. Clone the repository.
 2. Open the project in your preferred code editor.
 3. Launch the index.html file in a web browser.
 4. Start exploring the Rentomojo clone!
-
+<hr>
 ## Team Members
 - Hoshiyar Singh (Team Leader)
 - Shalu Gupta
 - Sharvan
 - Sourabh
-
+<hr>
  ## Hoshiyar Singh Responsibilities:
 - Created engaging and visually appealing landing page design to attract users.
 - Developed the product page layout and functionality, ensuring a smooth browsing experience.
 - Implemented efficient sorting, searching, and filtering features to enhance product discovery and user convenience.
-
+<hr>
 ## Acknowledgements
 We would like to express our gratitude to the Rentomojo team for inspiring this project. Special thanks to the team members for their dedicated efforts in completing the project within the given timeline.
+<hr>
+https://www.linkedin.com/in/hoshiyarjyani/
 
+<hr>
 Feel free to reach out to us if you have any questions or feedback. Enjoy your experience on the Rentomojo clone!
