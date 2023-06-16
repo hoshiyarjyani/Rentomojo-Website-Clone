@@ -9,7 +9,7 @@ This project is a clone of the e-commerce website Rentomojo. It allows users to 
 - Locate nearby stores on a map
 - User authentication with sign in and sign up functionality
 - Admin panel for managing products
-- Developed in just 5 days by a team of 5 members, led by Hoshiyar Singh
+- Developed in just 5 days by a team of 4 members, led by Hoshiyar Singh
 
 ## Screenshots
 
@@ -17,7 +17,6 @@ This project is a clone of the e-commerce website Rentomojo. It allows users to 
 ![Screenshot 2023-06-16 154644](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/d768b370-da4d-4959-a051-6a6e5e4d5958)
 ![Screenshot 2023-06-16 154031](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/9825128d-1984-448e-9cc8-f4e93859eb38)
 ![Screenshot 2023-06-16 154047](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/9d6e4cc3-7e84-4564-b60a-4b580dfaa18c)
-![Screenshot 2023-06-16 154104](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/4ca366f2-5b50-43c7-8459-5d935165be96)
 ![Screenshot 2023-06-16 154117](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/4918643e-df2f-4373-9e16-7bebf3bbaa0d)
 ![Screenshot 2023-06-16 154221](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/ebec812a-dbec-4030-b95c-a76f9069a079)
 ![Screenshot 2023-06-16 154253](https://github.com/hoshiyarjyani/Rentomojo-Website-Clone/assets/110700928/564a1e3d-97d2-483c-ad68-4808e3e81728)
@@ -41,6 +40,11 @@ To run the project locally, follow these steps:
 - Shalu Gupta
 - Sharvan
 - Sourabh
+
+ ## Hoshiyar Singh Responsibilities:
+- Created engaging and visually appealing landing page design to attract users.
+- Developed the product page layout and functionality, ensuring a smooth browsing experience.
+- Implemented efficient sorting, searching, and filtering features to enhance product discovery and user convenience.
 
 ## Acknowledgements
 We would like to express our gratitude to the Rentomojo team for inspiring this project. Special thanks to the team members for their dedicated efforts in completing the project within the given timeline.
