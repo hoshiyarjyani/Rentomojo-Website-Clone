@@ -42,15 +42,15 @@ To run the project locally, follow these steps:
 4. Start exploring the Rentomojo clone!
 <hr>
 ## Team Members <br>
-- Hoshiyar Singh (Team Leader)
-- Shalu Gupta
-- Sharvan
-- Sourabh
+- Hoshiyar Singh (Team Leader)<br>
+- Shalu Gupta<br>
+- Sharvan<br>
+- Sourabh<br>
 <hr>
- ## Hoshiyar Singh Responsibilities:
-- Created engaging and visually appealing landing page design to attract users.
-- Developed the product page layout and functionality, ensuring a smooth browsing experience.
-- Implemented efficient sorting, searching, and filtering features to enhance product discovery and user convenience.
+ ## Hoshiyar Singh Responsibilities:<br>
+- Created engaging and visually appealing landing page design to attract users.<br>
+- Developed the product page layout and functionality, ensuring a smooth browsing experience.<br>
+- Implemented efficient sorting, searching, and filtering features to enhance product discovery and user convenience.<br>
 <hr>
 ## Acknowledgements
 We would like to express our gratitude to the Rentomojo team for inspiring this project. Special thanks to the team members for their dedicated efforts in completing the project within the given timeline.
